@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Stackdriver Monitoring should be enabled
 # description: |
 #   StackDriver monitoring aggregates logs, events, and metrics from your Kubernetes environment on GKE to help you understand your application's behavior in production.

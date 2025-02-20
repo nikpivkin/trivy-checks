@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "ConfigMap with sensitive content"
 # description: "Storing sensitive content such as usernames and email addresses in configMaps is unsafe"
 # scope: package

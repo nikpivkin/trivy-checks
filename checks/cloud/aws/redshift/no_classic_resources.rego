@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: AWS Classic resource usage.
 # description: |
 #   AWS Classic resources run in a shared environment with infrastructure owned by other AWS customers. You should run

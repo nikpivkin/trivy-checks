@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "'RUN cd ...' to change directory"
 # description: "Use WORKDIR instead of proliferating instructions like 'RUN cd … && do-something', which are hard to read, troubleshoot, and maintain."
 # scope: package

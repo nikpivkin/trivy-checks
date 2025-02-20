@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Ensure log profile captures all activities
 # description: |
 #   Log profiles should capture all categories to ensure that all events are logged

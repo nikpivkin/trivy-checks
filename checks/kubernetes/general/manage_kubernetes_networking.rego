@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Manage Kubernetes networking"
 # description: "The ability to control which pods get service traffic directed to them allows for interception attacks. Controlling network policy allows for bypassing lateral movement restrictions."
 # scope: package

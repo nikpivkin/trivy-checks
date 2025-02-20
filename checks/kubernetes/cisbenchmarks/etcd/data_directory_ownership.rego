@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Ensure that the etcd data directory ownership is set to etcd:etcd"
 # description: "Ensure that the etcd data directory ownership is set to etcd:etcd."
 # scope: package

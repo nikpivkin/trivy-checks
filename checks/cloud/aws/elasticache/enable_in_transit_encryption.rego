@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Elasticache Replication Group uses unencrypted traffic.
 # description: |
 #   Traffic flowing between Elasticache replication nodes should be encrypted to ensure sensitive data is kept private.

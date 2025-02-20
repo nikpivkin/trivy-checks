@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: RDB instance should have backup retention longer than 1 day
 # description: |
 #   Backup retention periods should be set to a period that is a balance on cost and limiting risk.

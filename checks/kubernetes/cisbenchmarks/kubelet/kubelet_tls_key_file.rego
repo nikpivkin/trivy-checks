@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Ensure that the --tls-key-file argument are set as appropriate"
 # description: "Setup TLS connection on the Kubelets."
 # scope: package

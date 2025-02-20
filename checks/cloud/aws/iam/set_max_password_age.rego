@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: IAM Password policy should have expiry less than or equal to 90 days.
 # description: |
 #   IAM account password policies should have a maximum age specified.

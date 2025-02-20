@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Ensure all data stored in the launch configuration EBS is securely encrypted
 # description: |
 #   When creating Launch Configurations, user data can be used for the initial configuration of the instance. User data must not contain any sensitive data.

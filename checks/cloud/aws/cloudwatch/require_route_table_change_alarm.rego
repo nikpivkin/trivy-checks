@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Ensure a log metric filter and alarm exist for route table changes
 # description: |
 #   You can do real-time monitoring of API calls by directing CloudTrail logs to CloudWatch Logs and establishing corresponding metric filters and alarms.

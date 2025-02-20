@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Non-default /proc masks set"
 # description: "According to pod security standard '/proc Mount Type', the default /proc masks are set up to reduce attack surface, and should be required."
 # scope: package

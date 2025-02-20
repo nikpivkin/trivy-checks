@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Clusters should have IP aliasing enabled
 # description: |
 #   IP aliasing allows the reuse of public IPs internally, removing the need for a NAT gateway.

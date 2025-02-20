@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "RUN using 'sudo'"
 # description: "Avoid using 'RUN' with 'sudo' commands, as it can lead to unpredictable behavior."
 # scope: package

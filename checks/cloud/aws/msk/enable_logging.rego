@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Ensure MSK Cluster logging is enabled
 # description: |
 #   Managed streaming for Kafka can log to Cloud Watch, Kinesis Firehose and S3, at least one of these locations should be logged to

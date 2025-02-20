@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Default security context configured"
 # description: "Security context controls the allocation of security parameters for the pod/container/volume, ensuring the appropriate level of protection. Relying on default security context may expose vulnerabilities to potential attacks that rely on privileged access."
 # scope: package

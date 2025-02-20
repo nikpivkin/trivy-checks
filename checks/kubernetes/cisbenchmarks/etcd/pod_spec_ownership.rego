@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Ensure that the etcd pod specification file ownership is set to root:root"
 # description: "Ensure that the etcd pod specification file ownership is set to root:root."
 # scope: package

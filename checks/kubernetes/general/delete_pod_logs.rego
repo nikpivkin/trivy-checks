@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Delete pod logs"
 # description: "Used to cover attacker’s tracks, but most clusters ship logs quickly off-cluster."
 # scope: package

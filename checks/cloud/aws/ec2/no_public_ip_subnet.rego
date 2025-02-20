@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Instances in a subnet should not receive a public IP address by default.
 # description: |
 #   You should limit the provision of public IP addresses for resources. Resources should not be exposed on the public internet, but should have access limited to consumers required for the function of your application.

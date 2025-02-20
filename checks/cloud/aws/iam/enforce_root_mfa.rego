@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: The "root" account has unrestricted access to all resources in the AWS account. It is highly recommended that this account have MFA enabled.
 # description: |
 #   MFA adds an extra layer of protection on top of a user name and password. With MFA enabled, when a user signs in to an AWS website, they're prompted for their user name and password and for an authentication code from their AWS MFA device.

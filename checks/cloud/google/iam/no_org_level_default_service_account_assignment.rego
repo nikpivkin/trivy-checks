@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Roles should not be assigned to default service accounts
 # description: |
 #   Default service accounts should not be used - consider creating specialised service accounts for individual purposes.

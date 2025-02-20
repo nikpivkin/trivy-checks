@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Legacy client authentication methods utilized.
 # description: |
 #   It is recommended to use Service Accounts and OAuth as authentication methods for accessing the master in the container cluster.

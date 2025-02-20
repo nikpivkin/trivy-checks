@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Ensure that the --kubelet-client-certificate and --kubelet-client-key arguments are set as appropriate"
 # description: "Enable certificate based kubelet authentication."
 # scope: package

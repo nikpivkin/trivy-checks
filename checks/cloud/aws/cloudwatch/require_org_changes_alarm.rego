@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Ensure a log metric filter and alarm exist for organisation changes
 # description: |
 #   Monitoring AWS Organizations changes can help you prevent any unwanted, accidental or

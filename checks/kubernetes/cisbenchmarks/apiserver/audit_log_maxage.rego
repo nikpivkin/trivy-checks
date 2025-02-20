@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Ensure that the --audit-log-maxage argument is set to 30 or as appropriate"
 # description: "Retain the logs for at least 30 days or as appropriate."
 # scope: package

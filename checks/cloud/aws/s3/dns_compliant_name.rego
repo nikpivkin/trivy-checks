@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "S3 DNS Compliant Bucket Names"
 # description: "Ensures that S3 buckets have DNS complaint bucket names."
 # scope: package

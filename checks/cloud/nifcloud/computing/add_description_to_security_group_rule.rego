@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Missing description for security group rule.
 # description: |
 #   Security group rules should include a description for auditing purposes.

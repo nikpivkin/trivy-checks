@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Ensure AKS logging to Azure Monitoring is Configured
 # description: |
 #   Ensure AKS logging to Azure Monitoring is configured for containers to monitor the performance of workloads.

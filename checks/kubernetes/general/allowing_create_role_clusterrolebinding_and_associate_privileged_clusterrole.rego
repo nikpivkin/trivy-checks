@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Do not allow role to create ClusterRoleBindings and association with privileged role"
 # description: "Check whether role permits creating role ClusterRoleBindings and association with privileged cluster role"
 # scope: package

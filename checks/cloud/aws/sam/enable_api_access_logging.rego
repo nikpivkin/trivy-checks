@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: SAM API stages for V1 and V2 should have access logging enabled
 # description: |
 #   API Gateway stages should have access log settings block configured to track all access to a particular stage. This should be applied to both v1 and v2 gateway stages.

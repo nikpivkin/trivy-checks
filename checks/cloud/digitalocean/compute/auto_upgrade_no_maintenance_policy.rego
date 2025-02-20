@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Kubernetes clusters should be auto-upgraded to ensure that they always contain the latest security patches.
 # description: |
 # scope: package

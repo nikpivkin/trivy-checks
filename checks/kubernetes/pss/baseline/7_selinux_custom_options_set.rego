@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "SELinux custom options set"
 # description: "According to pod security standard 'SElinux', setting custom SELinux options should be disallowed."
 # scope: package

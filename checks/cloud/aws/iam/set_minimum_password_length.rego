@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: IAM Password policy should have minimum password length of 14 or more characters.
 # description: |
 #   IAM account password policies should ensure that passwords have a minimum length.

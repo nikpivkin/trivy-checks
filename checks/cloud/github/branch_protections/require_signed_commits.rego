@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: GitHub branch protection does not require signed commits.
 # description: |
 #   GitHub branch protection should be set to require signed commits.

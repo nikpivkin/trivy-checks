@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "All container images must start with a GCR domain"
 # description: "Containers should only use images from trusted GCR registries."
 # scope: package

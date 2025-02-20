@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Enable disk encryption on managed disk
 # description: |
 #   Manage disks should be encrypted at rest. When specifying the <code>encryption_settings</code> block, the enabled attribute should be set to <code>true</code>.

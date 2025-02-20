@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Enable Performance Insights to detect potential problems
 # description: |
 #   Enabling Performance insights allows for greater depth in monitoring data.

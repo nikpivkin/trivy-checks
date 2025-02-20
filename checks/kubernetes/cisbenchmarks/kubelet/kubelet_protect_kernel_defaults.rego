@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Ensure that the --protect-kernel-defaults is set to true"
 # description: "Protect tuned kernel parameters from overriding kubelet default kernel parameter values."
 # scope: package

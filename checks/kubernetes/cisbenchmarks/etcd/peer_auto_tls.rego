@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Ensure that the --peer-auto-tls argument is not set to true"
 # description: "Do not use self-signed certificates for TLS."
 # scope: package

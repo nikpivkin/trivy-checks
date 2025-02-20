@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: A security group rule allows egress traffic to multiple public addresses
 # description: |
 #   Opening up ports to the public internet is generally to be avoided. You should restrict access to IP addresses or ranges that explicitly require it where possible.

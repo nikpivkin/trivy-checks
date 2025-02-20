@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Instances should have Shielded VM secure boot enabled
 # description: |
 #   Secure boot helps ensure that the system only runs authentic software.

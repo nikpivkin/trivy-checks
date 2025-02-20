@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "CPU requests not specified"
 # description: "When containers have resource requests specified, the scheduler can make better decisions about which nodes to place pods on, and how to deal with resource contention."
 # scope: package

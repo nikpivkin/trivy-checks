@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: A MSK cluster allows unencrypted data at rest.
 # description: |
 #   Encryption should be forced for Kafka clusters, including at rest. This ensures sensitive data is kept private.

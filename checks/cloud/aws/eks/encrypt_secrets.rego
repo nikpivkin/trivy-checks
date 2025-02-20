@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: EKS should have the encryption of secrets enabled
 # description: |
 #   EKS cluster resources should have the encryption_config block set with protection of the secrets resource.

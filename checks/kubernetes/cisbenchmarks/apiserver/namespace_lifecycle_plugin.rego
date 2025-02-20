@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Ensure that the admission control plugin NamespaceLifecycle is set"
 # description: "Reject creating objects in a namespace that is undergoing termination."
 # scope: package

@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: S3 Access block should block public policy
 # description: |
 #   S3 bucket policy should have block public policy to prevent users from putting a policy that enable public access.

@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Ensure that Cloud Storage bucket is not anonymously or publicly accessible.
 # description: |
 #   Using 'allUsers' or 'allAuthenticatedUsers' as members in an IAM member/binding causes data to be exposed outside of the organisation.

@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Ensure that the --use-service-account-credentials argument is set to true"
 # description: "Use individual service account credentials for each controller."
 # scope: package

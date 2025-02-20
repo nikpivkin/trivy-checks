@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Network Policy should be enabled on GKE clusters
 # description: |
 #   Enabling a network policy allows the segregation of network traffic by namespace

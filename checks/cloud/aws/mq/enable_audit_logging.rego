@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: MQ Broker should have audit logging enabled
 # description: |
 #   Logging should be enabled to allow tracing of issues and activity to be investigated more fully. Logs provide additional information and context which is often invalauble during investigation

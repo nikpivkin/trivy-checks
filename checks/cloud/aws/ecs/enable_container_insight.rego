@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: ECS clusters should have container insights enabled
 # description: |
 #   Cloudwatch Container Insights provide more metrics and logs for container based applications and micro services.

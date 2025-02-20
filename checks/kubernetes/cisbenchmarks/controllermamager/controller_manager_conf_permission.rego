@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Ensure that the controller-manager config file permissions are set to 600 or more restrictive"
 # description: "Ensure that the controller-manager config file has permissions of 600 or more restrictive."
 # scope: package

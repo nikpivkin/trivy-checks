@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "RDS Deletion Protection Disabled"
 # description: "Ensure deletion protection is enabled for RDS database instances."
 # scope: package

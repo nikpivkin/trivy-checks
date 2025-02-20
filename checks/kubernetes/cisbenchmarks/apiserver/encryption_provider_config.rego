@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Ensure that the --encryption-provider-config argument is set as appropriate"
 # description: "Encrypt etcd key-value store."
 # scope: package

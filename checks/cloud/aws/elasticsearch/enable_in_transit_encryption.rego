@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Elasticsearch domain uses plaintext traffic for node to node communication.
 # description: |
 #   Traffic flowing between Elasticsearch nodes should be encrypted to ensure sensitive data is kept private.

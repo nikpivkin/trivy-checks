@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "SYS_ADMIN capability added"
 # description: "SYS_ADMIN gives the processes running inside the container privileges that are equivalent to root."
 # scope: package

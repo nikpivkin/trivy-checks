@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "COPY with more than two arguments not ending with slash"
 # description: "When a COPY command has more than two arguments, the last one should end with a slash."
 # scope: package

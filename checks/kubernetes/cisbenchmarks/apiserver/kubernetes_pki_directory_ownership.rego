@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Ensure that the Kubernetes PKI directory and file file ownership is set to root:root"
 # description: "Ensure that the Kubernetes PKI directory and file file ownership is set to root:root."
 # scope: package

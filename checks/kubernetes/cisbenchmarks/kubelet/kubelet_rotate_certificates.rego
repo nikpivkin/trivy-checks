@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Ensure that the --rotate-certificates argument is not set to false"
 # description: "Enable kubelet client certificate rotation."
 # scope: package

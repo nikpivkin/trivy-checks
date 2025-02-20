@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Ensure that Postgres errors are logged
 # description: |
 #   Setting the minimum log severity too high will cause errors not to be logged

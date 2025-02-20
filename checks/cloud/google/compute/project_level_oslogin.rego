@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: OS Login should be enabled at project level
 # description: |
 #   OS Login automatically revokes the relevant SSH keys when an IAM user has their access revoked.

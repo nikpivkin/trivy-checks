@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Ensure server parameter 'log_checkpoints' is set to 'ON' for PostgreSQL Database Server
 # description: |
 #   Postgresql can generate logs for checkpoints to improve visibility for audit and configuration issue resolution.

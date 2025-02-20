@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Ensure that the --authorization-mode argument is not set to AlwaysAllow"
 # description: "Do not allow all requests. Enable explicit authorization."
 # scope: package

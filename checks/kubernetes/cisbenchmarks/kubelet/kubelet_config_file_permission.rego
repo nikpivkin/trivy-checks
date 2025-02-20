@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Ensure that the --kubeconfig kubelet.conf file permissions are set to 600 or more restrictive"
 # description: "Ensure that the kubelet.conf file has permissions of 600 or more restrictive."
 # scope: package

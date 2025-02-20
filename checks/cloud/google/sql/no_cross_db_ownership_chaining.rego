@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Cross-database ownership chaining should be disabled
 # description: |
 #   Cross-database ownership chaining, also known as cross-database chaining, is a security feature of SQL Server that allows users of databases access to other databases besides the one they are currently using.

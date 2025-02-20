@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: GKE Control Plane should not be publicly accessible
 # description: |
 #   The GKE control plane is exposed to the public internet by default.

@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Manage EKS IAM Auth ConfigMap"
 # description: "Ability to add AWS IAM to RBAC bindings via special EKS configmap."
 # scope: package

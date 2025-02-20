@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "CPU not limited"
 # description: "Enforcing CPU limits prevents DoS via resource exhaustion."
 # scope: package

@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: The "root" account has unrestricted access to all resources in the AWS account. It is highly recommended that the use of this account be avoided.
 # description: |
 #   The root user has unrestricted access to all services and resources in an AWS account. We highly recommend that you avoid using the root user for daily tasks. Minimizing the use of the root user and adopting the principle of least privilege for access management reduce the risk of accidental changes and unintended disclosure of highly privileged credentials.

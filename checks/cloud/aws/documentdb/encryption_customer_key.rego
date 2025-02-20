@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: DocumentDB encryption should use Customer Managed Keys
 # description: |
 #   Using AWS managed keys does not allow for fine grained control. Encryption using AWS keys provides protection for your DocumentDB underlying storage. To increase control of the encryption and manage factors like rotation use customer managed keys.

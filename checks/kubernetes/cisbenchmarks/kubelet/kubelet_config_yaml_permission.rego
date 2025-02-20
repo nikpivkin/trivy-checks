@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "If the kubelet config.yaml configuration file is being used validate permissions set to 600 or more restrictive"
 # description: "Ensure that if the kubelet refers to a configuration file with the --config argument, that file has permissions of 600 or more restrictive."
 # scope: package

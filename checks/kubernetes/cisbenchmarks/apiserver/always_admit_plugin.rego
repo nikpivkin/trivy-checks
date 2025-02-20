@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Ensure that the admission control plugin AlwaysAdmit is not set"
 # description: "Do not allow all requests."
 # scope: package

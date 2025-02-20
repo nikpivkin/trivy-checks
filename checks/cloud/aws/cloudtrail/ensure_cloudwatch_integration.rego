@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: CloudTrail logs should be stored in S3 and also sent to CloudWatch Logs
 # description: |
 #   Realtime log analysis is not available without enabling CloudWatch logging.

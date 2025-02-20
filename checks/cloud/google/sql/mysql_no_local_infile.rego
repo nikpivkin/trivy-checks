@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Disable local_infile setting in MySQL
 # description: |
 #   Arbitrary files can be read from the system using LOAD_DATA unless this setting is disabled.

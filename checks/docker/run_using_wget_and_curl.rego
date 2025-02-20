@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "RUN using 'wget' and 'curl'"
 # description: "Avoid using both 'wget' and 'curl' since these tools have the same effect."
 # scope: package

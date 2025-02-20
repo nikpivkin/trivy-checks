@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Verify that the --read-only-port argument is set to 0"
 # description: "Disable the read-only port."
 # scope: package

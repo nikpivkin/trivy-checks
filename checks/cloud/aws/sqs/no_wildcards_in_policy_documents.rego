@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: AWS SQS policy document has wildcard action statement.
 # description: |
 #   SQS Policy actions should always be restricted to a specific set.

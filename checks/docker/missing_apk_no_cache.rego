@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "'apk add' is missing '--no-cache'"
 # description: "You should use 'apk add' with '--no-cache' to clean package cached data and reduce image size."
 # scope: package

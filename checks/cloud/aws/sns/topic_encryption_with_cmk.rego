@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: SNS topic not encrypted with CMK.
 # description: |
 #   Topics should be encrypted with customer managed KMS keys and not default AWS managed keys, in order to allow granular key management.

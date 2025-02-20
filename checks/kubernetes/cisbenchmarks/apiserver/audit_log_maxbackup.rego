@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Ensure that the --audit-log-maxbackup argument is set to 10 or as appropriate"
 # description: "Retain 10 or an appropriate number of old log files."
 # scope: package

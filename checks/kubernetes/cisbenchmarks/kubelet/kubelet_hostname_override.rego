@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Ensure that the --hostname-override argument is not set"
 # description: "Do not override node hostnames."
 # scope: package

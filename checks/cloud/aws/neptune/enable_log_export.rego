@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Neptune logs export should be enabled
 # description: |
 #   Neptune does not have auditing by default. To ensure that you are able to accurately audit the usage of your Neptune instance you should enable export logs.

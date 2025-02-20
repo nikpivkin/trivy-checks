@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: S3 Buckets not publicly accessible through ACL.
 # description: |
 #   Buckets should not have ACLs that allow public access

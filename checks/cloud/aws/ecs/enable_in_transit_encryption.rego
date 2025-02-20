@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: ECS Task Definitions with EFS volumes should use in-transit encryption
 # description: |
 #   ECS task definitions that have volumes using EFS configuration should explicitly enable in transit encryption to prevent the risk of data loss due to interception.

@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Ensure that the --profiling argument is set to false"
 # description: "Disable profiling, if not needed."
 # scope: package

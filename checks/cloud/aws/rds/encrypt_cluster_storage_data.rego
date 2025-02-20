@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: There is no encryption specified or encryption is disabled on the RDS Cluster.
 # description: |
 #   Encryption should be enabled for an RDS Aurora cluster.

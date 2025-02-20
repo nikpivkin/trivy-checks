@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Roles limited to the required actions
 # description: |
 #   The permissions granted to a role should be kept to the minimum required to be able to do the task. Wildcard permissions must not be used.

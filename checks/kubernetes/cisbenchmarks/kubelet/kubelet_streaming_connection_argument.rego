@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Ensure that the --streaming-connection-idle-timeout argument is not set to 0"
 # description: "Do not disable timeouts on streaming connections."
 # scope: package

@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Deprecated MAINTAINER used"
 # description: "MAINTAINER has been deprecated since Docker 1.13.0."
 # scope: package

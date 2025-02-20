@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Ensure that the expiration date is set on all keys
 # description: |
 #   Expiration Date is an optional Key Vault Key behavior and is not set by default.

@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: App Service authentication is activated
 # description: |
 #   Enabling authentication ensures that all communications in the application are authenticated. The auth_settings block needs to be filled out with the appropriate auth backend settings

@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "system:authenticate group access binding"
 # description: "Binding to system:authenticate group to any clusterrole or role is a security risk."
 # scope: package

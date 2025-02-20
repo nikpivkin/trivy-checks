@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "resource quota usage"
 # description: "ensure resource quota policy has configure in order to limit aggregate resource usage within namespace"
 # scope: package

@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Task definition defines sensitive environment variable(s).
 # description: |
 #   You should not make secrets available to a user in plaintext in any scenario. Secrets can instead be pulled from a secure secret storage system by the service requiring them.

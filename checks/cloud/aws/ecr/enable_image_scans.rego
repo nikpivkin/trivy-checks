@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: ECR repository has image scans disabled.
 # description: |
 #   Repository image scans should be enabled to ensure vulnerable software can be discovered and remediated as soon as possible.

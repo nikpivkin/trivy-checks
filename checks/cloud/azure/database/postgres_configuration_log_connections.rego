@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Ensure server parameter 'log_connections' is set to 'ON' for PostgreSQL Database Server
 # description: |
 #   Postgresql can generate logs for successful connections to improve visibility for audit and configuration issue resolution.

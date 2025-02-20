@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: SAM State machine must have logging enabled
 # description: |
 #   Logging enables end-to-end debugging and analysis of all state machine activities.

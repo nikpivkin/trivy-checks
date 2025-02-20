@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: API Gateway must have cache enabled
 # description: |
 #   Method cache encryption ensures that any sensitive data in the cache is not vulnerable to compromise in the event of interception

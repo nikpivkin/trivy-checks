@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Ensure that the --make-iptables-util-chains argument is set to true"
 # description: "Allow Kubelet to manage iptables."
 # scope: package

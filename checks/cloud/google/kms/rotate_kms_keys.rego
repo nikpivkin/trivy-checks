@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: KMS keys should be rotated at least every 90 days
 # description: |
 #   Keys should be rotated on a regular basis to limit exposure if a given key should become compromised.

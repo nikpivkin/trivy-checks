@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: No sensitive data stored in user_data
 # description: |
 #   When creating instances, user data can be used during the initial configuration. User data must not contain sensitive information

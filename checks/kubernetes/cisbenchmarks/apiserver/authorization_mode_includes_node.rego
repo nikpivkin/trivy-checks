@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Ensure that the --authorization-mode argument includes Node"
 # description: "Restrict kubelet nodes to reading only objects associated with them."
 # scope: package

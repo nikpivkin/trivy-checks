@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Performance Insights encryption should use Customer Managed Keys
 # description: |
 #   Amazon RDS uses the AWS managed key for your new DB instance. For complete control over KMS keys, including establishing and maintaining their key policies, IAM policies, and grants, enabling and disabling them, and rotating their cryptographic material, use a customer managed keys.

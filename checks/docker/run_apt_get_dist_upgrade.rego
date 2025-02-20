@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "'apt-get dist-upgrade' used"
 # description: "'apt-get dist-upgrade' upgrades a major version so it doesn't make more sense in Dockerfile."
 # scope: package

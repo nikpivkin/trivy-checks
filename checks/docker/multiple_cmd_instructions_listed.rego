@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Multiple CMD instructions listed"
 # description: "There can only be one CMD instruction in a Dockerfile. If you list more than one CMD then only the last CMD will take effect."
 # scope: package

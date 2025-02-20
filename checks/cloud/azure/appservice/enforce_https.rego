@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Ensure the Function App can only be accessed via HTTPS. The default is false.
 # description: |
 #   By default, clients can connect to function endpoints by using both HTTP or HTTPS. You should redirect HTTP to HTTPs because HTTPS uses the SSL/TLS protocol to provide a secure connection, which is both encrypted and authenticated.

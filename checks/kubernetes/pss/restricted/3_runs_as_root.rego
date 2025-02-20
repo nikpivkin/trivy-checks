@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Runs as root user"
 # description: "Force the running image to run as a non-root user to ensure least privileges."
 # scope: package

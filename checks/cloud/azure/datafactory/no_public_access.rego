@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Data Factory should have public access disabled, the default is enabled.
 # description: |
 #   Data Factory has public access set to true by default.

@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: API Gateway must have X-Ray tracing enabled
 # description: |
 #   X-Ray tracing enables end-to-end debugging and analysis of all API Gateway HTTP requests.

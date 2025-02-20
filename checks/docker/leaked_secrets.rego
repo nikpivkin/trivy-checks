@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Secrets passed via `build-args` or envs or copied secret files
 # description: Passing secrets via `build-args` or envs or copying secret files can leak them out
 # schemas:

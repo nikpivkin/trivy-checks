@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Kubernetes should have 'Automatic upgrade' enabled
 # description: |
 #   Automatic updates keep nodes updated with the latest cluster master version.

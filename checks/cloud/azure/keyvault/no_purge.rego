@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Key vault should have purge protection enabled
 # description: |
 #   Purge protection is an optional Key Vault behavior and is not enabled by default.

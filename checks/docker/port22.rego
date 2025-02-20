@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Port 22 exposed"
 # description: "Exposing port 22 might allow users to SSH into the container."
 # scope: package

@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: No plaintext password for compute instance
 # description: |
 #   Assigning a password to the compute instance using plaintext could lead to compromise; it would be preferable to use key-pairs as a login mechanism

@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: CloudTrail should use Customer managed keys to encrypt the logs
 # description: |
 #  Using AWS managed keys does not allow for fine grained control.  Using Customer managed keys provides comprehensive control over cryptographic keys, enabling management of policies, permissions, and rotation, thus enhancing security and compliance measures for sensitive data and systems.

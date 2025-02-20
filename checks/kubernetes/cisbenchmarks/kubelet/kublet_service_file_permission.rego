@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Ensure that the kubelet service file permissions are set to 600 or more restrictive"
 # description: "Ensure that the kubelet service file has permissions of 600 or more restrictive."
 # scope: package

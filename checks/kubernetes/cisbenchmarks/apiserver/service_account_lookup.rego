@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Ensure that the --service-account-lookup argument is set to true"
 # description: "Validate service account before validating token."
 # scope: package

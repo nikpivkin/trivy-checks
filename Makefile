@@ -86,3 +86,10 @@ push-bundle: create-bundle
 		$$REPO \
 		 --artifact-type application/vnd.cncf.openpolicyagent.config.v1+json \
 		"$(BUNDLE_FILE):application/vnd.cncf.openpolicyagent.layer.v1.tar+gzip"
+
+build-opa-bundle: 
+	go run ./cmd/opa build -t wasm \
+		--output bundle.tar.gz \
+		--ignore "*.yaml" --ignore "*_test.rego" \
+		--v0-compatible --prune-unused \
+		checks lib

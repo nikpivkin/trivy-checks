@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: aws_instance should activate session tokens for Instance Metadata Service.
 # description: |
 #   IMDS v2 (Instance Metadata Service) introduced session authentication tokens which improve security when talking to IMDS.

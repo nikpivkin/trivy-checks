@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Ensure that the --event-qps argument is set to 0 or a level which ensures appropriate event capture"
 # description: "Security relevant information should be captured. The --event-qps flag on the Kubelet can be used to limit the rate at which events are gathered"
 # scope: package

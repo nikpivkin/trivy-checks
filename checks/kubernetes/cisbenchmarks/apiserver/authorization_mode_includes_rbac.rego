@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Ensure that the --authorization-mode argument includes RBAC"
 # description: "Turn on Role Based Access Control."
 # scope: package

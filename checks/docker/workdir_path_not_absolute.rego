@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "WORKDIR path not absolute"
 # description: "For clarity and reliability, you should always use absolute paths for your WORKDIR."
 # scope: package

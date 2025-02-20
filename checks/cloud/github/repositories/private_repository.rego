@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: GitHub repository shouldn't be public.
 # description: |
 #   GitHub repository should be set to be private.

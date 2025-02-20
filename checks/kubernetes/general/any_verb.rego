@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "No wildcard verb roles"
 # description: "Check whether role permits wildcard verb on specific resources"
 # scope: package

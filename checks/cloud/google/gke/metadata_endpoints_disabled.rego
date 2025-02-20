@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Legacy metadata endpoints enabled.
 # description: |
 #   The Compute Engine instance metadata server exposes legacy v0.1 and v1beta1 endpoints, which do not enforce metadata query headers.

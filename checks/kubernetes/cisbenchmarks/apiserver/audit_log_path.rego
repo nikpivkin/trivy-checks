@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Ensure that the --audit-log-path argument is set"
 # description: "Enable auditing on the Kubernetes API Server and set the desired audit log path."
 # scope: package

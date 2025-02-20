@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Missing description for nas security group.
 # description: |
 #   NAS security groups should include a description for auditing purposes.

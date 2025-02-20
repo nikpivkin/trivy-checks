@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Send notification emails for high severity alerts
 # description: |
 #   It is recommended that at least one valid contact is configured for the security center.

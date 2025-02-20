@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Manage all resources at the namespace"
 # description: "Full control of the resources within a namespace.  In some cluster configurations, this is excessive. In others, this is normal (a gitops deployment operator like flux)"
 # scope: package

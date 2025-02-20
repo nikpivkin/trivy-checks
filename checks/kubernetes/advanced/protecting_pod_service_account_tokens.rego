@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Protecting Pod service account tokens"
 # description: "ensure that Pod specifications disable the secret token being mounted by setting automountServiceAccountToken: false"
 # scope: package

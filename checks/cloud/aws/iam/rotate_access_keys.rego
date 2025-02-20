@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Access keys should be rotated at least every 90 days
 # description: |
 #   Regularly rotating your IAM credentials helps prevent a compromised set of IAM access keys from accessing components in your AWS account.

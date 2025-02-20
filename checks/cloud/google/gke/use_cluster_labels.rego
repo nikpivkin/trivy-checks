@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Clusters should be configured with Labels
 # description: |
 #   Labels make it easier to manage assets and differentiate between clusters and environments, allowing the mapping of computational resources to the wider organisational structure.

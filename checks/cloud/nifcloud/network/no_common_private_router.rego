@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: The router has common private network
 # description: |
 #   When handling sensitive data between servers, please consider using a private LAN to isolate the private side network from the shared network.

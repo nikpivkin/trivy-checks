@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Key Vault Secret should have an expiration date set
 # description: |
 #   Expiration Date is an optional Key Vault Secret behavior and is not set by default.

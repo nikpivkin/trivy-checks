@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Multiple ENTRYPOINT instructions listed"
 # description: "There can only be one ENTRYPOINT instruction in a Dockerfile. Only the last ENTRYPOINT instruction in the Dockerfile will have an effect."
 # scope: package

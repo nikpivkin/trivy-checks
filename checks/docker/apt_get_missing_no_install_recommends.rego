@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "'apt-get' missing '--no-install-recommends'"
 # description: "'apt-get' install should use '--no-install-recommends' to minimize image size."
 # scope: package

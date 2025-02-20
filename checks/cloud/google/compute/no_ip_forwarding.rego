@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Instances should not have IP forwarding enabled
 # description: |
 #   Disabling IP forwarding ensures the instance can only receive packets addressed to the instance and can only send packets with a source address of the instance.

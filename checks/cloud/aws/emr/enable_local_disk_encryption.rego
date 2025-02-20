@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Enable local-disk encryption for EMR clusters.
 # description: |
 #   Data stored within an EMR instances should be encrypted to ensure sensitive data is kept private.

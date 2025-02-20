@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: S3 Data should be versioned
 # description: |
 #   Versioning in Amazon S3 is a means of keeping multiple variants of an object in the same bucket.

@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Users should not be granted service account access at the project level
 # description: |
 #   Users with service account access at project level can impersonate any service account. Instead, they should be given access to particular service accounts as required.

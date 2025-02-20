@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Ensure that the admission control plugin ServiceAccount is set"
 # description: "Automate service accounts management."
 # scope: package

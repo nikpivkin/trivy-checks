@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "User with admin access"
 # description: "Either cluster-admin or those granted powerful permissions."
 # scope: package

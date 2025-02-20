@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: IAM groups should have MFA enforcement activated.
 # description: |
 #   IAM groups should be protected with multi factor authentication to add safe guards to password compromise.

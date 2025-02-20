@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Container images from public registries used"
 # description: "Container images must not start with an empty prefix or a defined public registry domain."
 # scope: package

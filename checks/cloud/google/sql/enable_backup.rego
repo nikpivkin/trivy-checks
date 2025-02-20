@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Enable automated backups to recover from data-loss
 # description: |
 #   Automated backups are not enabled by default. Backups are an easy way to restore data in a corruption or data-loss scenario.

@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Service with External IP"
 # description: "Services with external IP addresses allows direct access from the internet and might expose risk for CVE-2020-8554"
 # scope: package

@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Containers must not set runAsUser to 0"
 # description: "Containers should be forbidden from running with a root UID."
 # scope: package

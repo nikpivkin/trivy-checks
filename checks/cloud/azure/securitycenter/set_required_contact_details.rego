@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: The required contact details should be set for security center
 # description: |
 #   It is recommended that at least one valid contact is configured for the security center.

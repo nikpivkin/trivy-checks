@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: A database resource is marked as publicly accessible.
 # description: |
 #   Database resources should not publicly available. You should limit all access to the minimum that is required for your application to function.

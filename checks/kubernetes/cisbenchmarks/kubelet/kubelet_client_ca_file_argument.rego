@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Ensure that the --client-ca-file argument is set as appropriate"
 # description: "Enable Kubelet authentication using certificates."
 # scope: package

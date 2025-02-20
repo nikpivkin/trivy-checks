@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: EKS Clusters should have the public access disabled
 # description: |
 #   EKS clusters are available publicly by default, this should be explicitly disabled in the vpc_config of the EKS cluster resource.

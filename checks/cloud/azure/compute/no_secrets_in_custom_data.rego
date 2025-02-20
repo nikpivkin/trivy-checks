@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Ensure that no sensitive credentials are exposed in VM custom_data
 # description: |
 #   When creating Azure Virtual Machines, custom_data is used to pass start up information into the EC2 instance. This custom_dat must not contain access key credentials.

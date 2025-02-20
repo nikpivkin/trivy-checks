@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Ensure that the --token-auth-file parameter is not set"
 # description: "Do not use token based authentication."
 # scope: package

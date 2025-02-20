@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Delete verified record
 # description: |
 #   Removing verified record of TXT auth the risk that

@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Neptune storage must be encrypted at rest
 # description: |
 #   Encryption of Neptune storage ensures that if their is compromise of the disks, the data is still protected.

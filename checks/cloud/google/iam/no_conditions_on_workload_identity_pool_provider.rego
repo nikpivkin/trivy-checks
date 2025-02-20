@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: A configuration for an external workload identity pool provider should have conditions set
 # description: |
 #   In GitHub Actions, one can authenticate to Google Cloud by setting values for workload_identity_provider and service_account and requesting a short-lived OIDC token which is then used to execute commands as that Service Account. If you don't specify a condition in the workload identity provider pool configuration, then any GitHub Action can assume this role and act as that Service Account.

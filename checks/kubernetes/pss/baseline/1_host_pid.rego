@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Access to host PID"
 # description: "Sharing the host’s PID namespace allows visibility on host processes, potentially leaking information such as environment variables and configuration."
 # scope: package

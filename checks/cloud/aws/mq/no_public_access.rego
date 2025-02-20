@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Ensure MQ Broker is not publicly exposed
 # description: |
 #   Public access of the MQ broker should be disabled and only allow routes to applications that require access.

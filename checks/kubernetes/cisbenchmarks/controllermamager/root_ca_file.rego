@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Ensure that the --root-ca-file argument is set as appropriate"
 # description: "Allow pods to verify the API server's serving certificate before establishing connections."
 # scope: package

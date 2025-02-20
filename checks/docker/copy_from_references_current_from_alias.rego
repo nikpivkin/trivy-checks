@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "COPY '--from' referring to the current image"
 # description: "COPY '--from' should not mention the current FROM alias, since it is impossible to copy from itself."
 # scope: package

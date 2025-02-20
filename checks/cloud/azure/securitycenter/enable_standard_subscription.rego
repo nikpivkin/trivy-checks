@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Enable the standard security center subscription tier
 # description: |
 #   To benefit from Azure Defender you should use the Standard subscription tier.

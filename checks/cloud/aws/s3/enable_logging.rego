@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: S3 Bucket Logging
 # description: Ensures S3 bucket logging is enabled for S3 buckets
 # scope: package

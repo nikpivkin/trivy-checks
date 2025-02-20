@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Ensure that the --audit-log-maxsize argument is set to 100 or as appropriate"
 # description: "Rotate log files on reaching 100 MB or as appropriate."
 # scope: package

@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Enable at-rest encryption for EMR clusters.
 # description: |
 #   Data stored within an EMR cluster should be encrypted to ensure sensitive data is kept private.

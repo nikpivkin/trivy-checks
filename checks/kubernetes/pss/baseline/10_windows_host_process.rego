@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Access to host process"
 # description: "Windows pods offer the ability to run HostProcess containers which enable privileged access to the Windows node."
 # scope: package

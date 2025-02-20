@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Unencrypted S3 bucket.
 # description: |
 #   S3 Buckets should be encrypted to protect the data that is stored within them if access is compromised.

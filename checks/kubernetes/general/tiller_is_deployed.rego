@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Tiller Is Deployed"
 # description: "Check if Helm Tiller component is deployed."
 # scope: package

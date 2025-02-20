@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Ensure that the --cert-file and --key-file arguments are set as appropriate"
 # description: "Configure TLS encryption for the etcd service."
 # scope: package

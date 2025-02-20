@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Ensure that the --DenyServiceExternalIPs is not set"
 # description: "This admission controller rejects all net-new usage of the Service field externalIPs."
 # scope: package

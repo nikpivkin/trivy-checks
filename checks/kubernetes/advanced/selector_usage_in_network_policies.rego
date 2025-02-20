@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Selector usage in network policies"
 # description: "ensure that network policies selectors are applied to pods or namespaces to restricted ingress and egress traffic within the pod network"
 # scope: package

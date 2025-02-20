@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "hostPath volume mounted with docker.sock"
 # description: "Mounting docker.sock from the host can give the container full root access to the host."
 # scope: package

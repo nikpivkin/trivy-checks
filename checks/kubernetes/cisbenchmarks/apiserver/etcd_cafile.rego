@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Ensure that the --etcd-cafile argument is set as appropriate"
 # description: "etcd should be configured to make use of TLS encryption for client connections."
 # scope: package

@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: The minimum TLS version for Storage Accounts should be TLS1_2
 # description: |
 #   Azure Storage currently supports three versions of the TLS protocol: 1.0, 1.1, and 1.2.

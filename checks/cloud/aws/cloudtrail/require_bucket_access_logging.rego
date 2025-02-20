@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: You should enable bucket access logging on the CloudTrail S3 bucket.
 # description: |
 #   Amazon S3 bucket access logging generates a log that contains access records for each request made to your S3 bucket. An access log record contains details about the request, such as the request type, the resources specified in the request worked, and the time and date the request was processed.

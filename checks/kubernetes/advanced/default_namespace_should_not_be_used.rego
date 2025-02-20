@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Workloads in the default namespace"
 # description: "Checks whether a workload is running in the default namespace."
 # scope: package

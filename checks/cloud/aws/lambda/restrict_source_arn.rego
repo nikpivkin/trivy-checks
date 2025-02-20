@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Ensure that lambda function permission has a source arn specified
 # description: |
 #   When the principal is an AWS service, the ARN of the specific resource within that service to grant permission to.

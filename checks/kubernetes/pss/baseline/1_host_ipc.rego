@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Access to host IPC namespace
 # description: Sharing the host’s IPC namespace allows container processes to communicate with processes on the host.
 # scope: package

@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Runtime/Default Seccomp profile not set"
 # description: "According to pod security standard 'Seccomp', the RuntimeDefault seccomp profile must be required, or allow specific additional profiles."
 # scope: package

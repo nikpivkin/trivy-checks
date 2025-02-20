@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Config configuration aggregator should be using all regions for source
 # description: |
 #   Sources that aren't covered by the aggregator are not include in the configuration. The configuration aggregator should be configured with all_regions for the source.

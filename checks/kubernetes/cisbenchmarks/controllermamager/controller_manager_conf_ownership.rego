@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Ensure that the controller-manager config  file ownership is set to root:root"
 # description: "Ensure that the controller-manager config  file ownership is set to root:root."
 # scope: package

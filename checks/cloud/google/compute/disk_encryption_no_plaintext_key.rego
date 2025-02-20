@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: The encryption key used to encrypt a compute disk has been specified in plaintext.
 # description: |
 #   Sensitive values such as raw encryption keys should not be included in your Terraform code, and should be stored securely by a secrets manager.

@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: SQS queue should be encrypted with a CMK.
 # description: |
 #   Queues should be encrypted with customer managed KMS keys and not default AWS managed keys, in order to allow granular control over access to specific queues.

@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Memory requests not specified"
 # description: "When containers have memory requests specified, the scheduler can make better decisions about which nodes to place pods on, and how to deal with resource contention."
 # scope: package

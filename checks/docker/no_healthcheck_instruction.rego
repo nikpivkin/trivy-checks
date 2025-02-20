@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "No HEALTHCHECK defined"
 # description: "You should add HEALTHCHECK instruction in your docker container images to perform the health check on running containers."
 # scope: package

@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "'yum clean all' missing"
 # description: "You should use 'yum clean all' after using a 'yum install' command to clean package cached data and reduce image size."
 # scope: package

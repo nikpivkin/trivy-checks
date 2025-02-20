@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Specific capabilities added"
 # description: "According to pod security standard 'Capabilities', capabilities beyond the default set must not be added."
 # scope: package

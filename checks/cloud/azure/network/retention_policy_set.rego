@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Retention policy for flow logs should be enabled and set to greater than 90 days
 # description: |
 #   Flow logs are the source of truth for all network activity in your cloud environment.

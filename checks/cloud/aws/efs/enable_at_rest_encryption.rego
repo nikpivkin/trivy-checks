@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: EFS Encryption has not been enabled
 # description: |
 #   If your organization is subject to corporate or regulatory policies that require encryption of data and metadata at rest, we recommend creating a file system that is encrypted at rest, and mounting your file system using encryption of data in transit.

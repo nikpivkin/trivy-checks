@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Domain logging should be enabled for Elastic Search domains
 # description: |
 #   Amazon ES exposes four Elasticsearch logs through Amazon CloudWatch Logs: error logs, search slow logs, index slow logs, and audit logs.

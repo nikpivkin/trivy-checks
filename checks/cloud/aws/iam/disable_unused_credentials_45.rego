@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Disabling or removing unnecessary credentials will reduce the window of opportunity for credentials associated with a compromised or abandoned account to be used.
 # description: |
 #   AWS IAM users can access AWS resources using different types of credentials, such as passwords or access keys. It is recommended that all credentials that have been unused in45 or greater days be deactivated or removed.

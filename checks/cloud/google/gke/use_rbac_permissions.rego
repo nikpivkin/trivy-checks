@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Legacy ABAC permissions are enabled.
 # description: |
 #   You should disable Attribute-Based Access Control (ABAC), and instead use Role-Based Access Control (RBAC) in GKE.

@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Ensure that the Kubelet only makes use of Strong Cryptographic Ciphers"
 # description: "Ensure that the Kubelet is configured to only use strong cryptographic ciphers."
 # scope: package

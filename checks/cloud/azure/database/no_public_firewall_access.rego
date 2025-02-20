@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Ensure database firewalls do not permit public access
 # description: |
 #   Azure services can be allowed access through the firewall using a start and end IP address of 0.0.0.0. No other end ip address should be combined with a start of 0.0.0.0

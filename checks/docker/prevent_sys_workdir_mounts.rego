@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "WORKDIR should not be mounted on system dirs"
 # description: "WORKDIR should not be mounted on system directories to avoid container breakouts"
 # scope: package

@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Do not allow attaching to shell on pods"
 # description: "Check whether role permits attaching to shell on pods"
 # scope: package

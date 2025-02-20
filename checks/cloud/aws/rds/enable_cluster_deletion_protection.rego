@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "RDS Cluster Deletion Protection Disabled"
 # description: "Ensure deletion protection is enabled for RDS clusters."
 # scope: package

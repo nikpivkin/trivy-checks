@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "IAM Pass Role Filtering"
 # description: "Ensures any IAM pass role attched to roles are flagged and warned."
 # scope: package

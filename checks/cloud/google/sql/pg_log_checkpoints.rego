@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Ensure that logging of checkpoints is enabled.
 # description: |
 #   Logging checkpoints provides useful diagnostic data, which can identify performance issues in an application and potential DoS vectors.

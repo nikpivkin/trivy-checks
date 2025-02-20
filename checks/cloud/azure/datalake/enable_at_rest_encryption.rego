@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Unencrypted data lake storage.
 # description: |
 #   Datalake storage encryption defaults to Enabled, it shouldn't be overridden to Disabled.

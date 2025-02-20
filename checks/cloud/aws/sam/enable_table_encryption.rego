@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: SAM Simple table must have server side encryption enabled.
 # description: |
 #   Encryption should be enabled at all available levels to ensure that data is protected if compromised.

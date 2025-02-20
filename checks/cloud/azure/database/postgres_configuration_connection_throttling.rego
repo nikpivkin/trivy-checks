@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Ensure server parameter 'connection_throttling' is set to 'ON' for PostgreSQL Database Server
 # description: |
 #   Postgresql can generate logs for connection throttling to improve visibility for audit and configuration issue resolution.

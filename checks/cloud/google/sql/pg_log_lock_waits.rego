@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Ensure that logging of lock waits is enabled.
 # description: |
 #   Lock waits are often an indication of poor performance and often an indicator of a potential denial of service vulnerability, therefore occurrences should be logged for analysis.

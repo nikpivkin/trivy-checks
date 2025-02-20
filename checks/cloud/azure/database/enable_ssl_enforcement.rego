@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: SSL should be enforced on database connections where applicable
 # description: |
 #   SSL connections should be enforced were available to ensure secure transfer and reduce the risk of compromising data in flight.

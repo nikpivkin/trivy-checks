@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: IAM Password policy should have requirement for at least one symbol in the password.
 # description: |
 #   IAM account password policies should ensure that passwords content including a symbol.

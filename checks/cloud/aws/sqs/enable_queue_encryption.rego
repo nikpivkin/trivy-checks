@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Unencrypted SQS queue.
 # description: |
 #   Queues should be encrypted to protect queue contents.

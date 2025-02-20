@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "'RUN <package-manager> update' instruction alone"
 # description: "The instruction 'RUN <package-manager> update' should always be followed by '<package-manager> install' in the same RUN statement."
 # scope: package

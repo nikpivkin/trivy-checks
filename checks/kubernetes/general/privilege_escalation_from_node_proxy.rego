@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Do not allow privilege escalation from node proxy"
 # description: "Check whether role permits privilege escalation from node proxy"
 # scope: package

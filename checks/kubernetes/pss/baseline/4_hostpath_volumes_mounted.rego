@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "hostPath volumes mounted"
 # description: "According to pod security standard 'HostPath Volumes', HostPath volumes must be forbidden."
 # scope: package

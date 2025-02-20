@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: EBS volumes must be encrypted
 # description: |
 #   By enabling encryption on EBS volumes you protect the volume, the disk I/O and any derived snapshots from compromise if intercepted.

@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Manage secrets"
 # description: "Viewing secrets at the cluster-scope is akin to cluster-admin in most clusters as there are typically at least one service accounts (their token stored in a secret) bound to cluster-admin directly or a role/clusterrole that gives similar permissions."
 # scope: package

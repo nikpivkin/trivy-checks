@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Point in time recovery should be enabled to protect DynamoDB table
 # description: |
 #   DynamoDB tables should be protected against accidentally or malicious write/delete actions by ensuring that there is adequate protection.

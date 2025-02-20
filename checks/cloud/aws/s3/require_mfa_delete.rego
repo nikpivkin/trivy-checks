@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Buckets should have MFA deletion protection enabled.
 # description: |
 #   Adding MFA delete to an S3 bucket, requires additional authentication when you change the version state of your bucket or you delete an object version, adding another layer of security in the event your security credentials are compromised or unauthorized access is obtained.

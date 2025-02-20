@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "If the kubelet config.yaml configuration file is being used validate file ownership is set to root:root "
 # description: "Ensure that if the kubelet refers to a configuration file with the --config argument, that file is owned by root:root."
 # scope: package

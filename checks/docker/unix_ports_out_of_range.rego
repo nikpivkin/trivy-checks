@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Exposed port out of range"
 # description: "UNIX ports outside the range 0-65535 are exposed."
 # scope: package

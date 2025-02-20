@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Ensure that the admission control plugin NodeRestriction is set"
 # description: "Limit the Node and Pod objects that a kubelet could modify."
 # scope: package

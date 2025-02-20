@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Network ACLs should not allow unrestricted ingress to SSH or RDP from any IP address.
 # description: |
 #   The Network Access Control List (NACL) function provide stateless filtering of ingress and

@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Ensure that the --kubelet-certificate-authority argument is set as appropriate"
 # description: "Verify kubelet's certificate before establishing connection."
 # scope: package

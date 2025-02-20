@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Synapse Workspace should have managed virtual network enabled, the default is disabled.
 # description: |
 #   Synapse Workspace does not have managed virtual network enabled by default.

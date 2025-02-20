@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Missing security group for vpnGateway.
 # description: |
 #   Need to add a security group to your vpnGateway.

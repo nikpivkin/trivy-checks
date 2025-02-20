@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Web App uses latest TLS version
 # description: |
 #   Use a more recent TLS/SSL policy for the App Service

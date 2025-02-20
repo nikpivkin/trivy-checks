@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: SAM Function must have X-Ray tracing enabled
 # description: |
 #   X-Ray tracing enables end-to-end debugging and analysis of the function.

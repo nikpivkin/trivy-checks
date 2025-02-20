@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: The Kubernetes cluster does not enable surge upgrades
 # description: |
 #   While upgrading your cluster, workloads will temporarily be moved to new nodes. A small cost will follow, but as a bonus, you won't experience downtime.

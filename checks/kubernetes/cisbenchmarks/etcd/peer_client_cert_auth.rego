@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Ensure that the --peer-client-cert-auth argument is set to true"
 # description: "etcd should be configured for peer authentication."
 # scope: package

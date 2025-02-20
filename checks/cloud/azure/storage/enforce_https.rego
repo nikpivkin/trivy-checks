@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Storage accounts should be configured to only accept transfers that are over secure connections
 # description: |
 #   You can configure your storage account to accept requests from secure connections only by setting the Secure transfer required property for the storage account.

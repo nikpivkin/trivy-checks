@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Ensure that the --service-account-key-file argument is set as appropriate"
 # description: "Explicitly set a service account public key file for service accounts on the apiserver."
 # scope: package

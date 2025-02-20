@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Kinesis stream is unencrypted.
 # description: |
 #   Kinesis streams should be encrypted to ensure sensitive data is kept private. Additionally, non-default KMS keys should be used so granularity of access control can be ensured.

@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Unencrypted SNS topic.
 # description: |
 #   Topics should be encrypted to protect their contents.

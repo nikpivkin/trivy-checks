@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Database auditing rentention period should be longer than 90 days
 # description: |
 #   When Auditing is configured for a SQL database, if the retention period is not set, the retention will be unlimited.

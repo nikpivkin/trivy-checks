@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "RDS Publicly Accessible"
 # description: "Ensures RDS instances and RDS Cluster instances are not launched into the public cloud."
 # scope: package

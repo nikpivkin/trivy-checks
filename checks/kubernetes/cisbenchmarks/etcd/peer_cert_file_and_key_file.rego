@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Ensure that the --peer-cert-file and --peer-key-file arguments are set as appropriate"
 # description: "etcd should be configured to make use of TLS encryption for peer connections."
 # scope: package

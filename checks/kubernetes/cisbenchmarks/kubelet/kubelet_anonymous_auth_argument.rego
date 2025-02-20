@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Ensure that the --anonymous-auth argument is set to false"
 # description: "Disable anonymous requests to the Kubelet server."
 # scope: package

@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Default security group should restrict all traffic
 # description: |
 #   Configuring all VPC default security groups to restrict all traffic will encourage least

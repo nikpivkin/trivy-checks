@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Key vault Secret should have a content type set
 # description: |
 #   Content Type is an optional Key Vault Secret behavior and is not enabled by default.

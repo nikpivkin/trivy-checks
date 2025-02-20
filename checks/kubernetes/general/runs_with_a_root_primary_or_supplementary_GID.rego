@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Runs with a root primary or supplementary GID"
 # description: "According to pod security standard 'Non-root groups', containers should be forbidden from running with a root primary or supplementary GID."
 # scope: package

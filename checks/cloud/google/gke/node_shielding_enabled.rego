@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Shielded GKE nodes not enabled.
 # description: |
 #   CIS GKE Benchmark Recommendation: 6.5.5. Ensure Shielded GKE Nodes are Enabled

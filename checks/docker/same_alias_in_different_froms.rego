@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Duplicate aliases defined in different FROMs"
 # description: "Different FROMs can't have the same alias defined."
 # scope: package

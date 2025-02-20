@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "SYS_MODULE capability added"
 # description: "The SYS_MODULE capability grants attackers the ability to install and remove kernel modules, posing serious security risks."
 # scope: package

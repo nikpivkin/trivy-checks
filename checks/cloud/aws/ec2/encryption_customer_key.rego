@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: EBS volume encryption should use Customer Managed Keys
 # description: |
 #   Encryption using AWS keys provides protection for your EBS volume. To increase control of the encryption and manage factors like rotation use customer managed keys.

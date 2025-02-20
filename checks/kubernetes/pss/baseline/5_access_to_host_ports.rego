@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Access to host ports"
 # description: "According to pod security standard 'Host Ports', hostPorts should be disallowed, or at minimum restricted to a known list."
 # scope: package

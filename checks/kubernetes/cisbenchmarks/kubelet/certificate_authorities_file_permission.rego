@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Ensure that the certificate authorities file permissions are set to 600 or more restrictive"
 # description: "Ensure that the certificate authorities file has permissions of 600 or more restrictive."
 # scope: package

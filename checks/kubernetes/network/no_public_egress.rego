@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: A network policy should not allow unrestricted egress to any IP address.
 # description: You should not expose infrastructure to the public internet except where explicitly required
 # scope: package

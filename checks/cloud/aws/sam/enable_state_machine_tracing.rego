@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: SAM State machine must have X-Ray tracing enabled
 # description: |
 #   X-Ray tracing enables end-to-end debugging and analysis of all state machine activities.

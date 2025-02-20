@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "limit range usage"
 # description: "ensure limit range policy has configure in order to limit resource usage for namespaces or nodes"
 # scope: package

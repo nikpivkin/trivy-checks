@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Ensure that the --secure-port argument is not set to 0"
 # description: "Do not disable the secure port."
 # scope: package

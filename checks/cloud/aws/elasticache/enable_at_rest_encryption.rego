@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Elasticache Replication Group stores unencrypted data at-rest.
 # description: |
 #   Data stored within an Elasticache replication node should be encrypted to ensure sensitive data is kept private.

@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Do not allow users in a rolebinding to add other users to their rolebindings"
 # description: "Check whether role permits allowing users in a rolebinding to add other users to their rolebindings"
 # scope: package

@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Ensure that the --kubelet-https argument is set to true"
 # description: "Use https for kubelet connections."
 # scope: package

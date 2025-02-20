@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Ensure that the admission control plugin EventRateLimit is set"
 # description: "Limit the rate at which the API server accepts requests."
 # scope: package

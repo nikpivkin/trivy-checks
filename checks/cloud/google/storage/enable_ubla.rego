@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Ensure that Cloud Storage buckets have uniform bucket-level access enabled
 # description: |
 #   When you enable uniform bucket-level access on a bucket, Access Control Lists (ACLs) are disabled, and only bucket-level Identity and Access Management (IAM) permissions grant access to that bucket and the objects it contains. You revoke all access granted by object ACLs and the ability to administrate permissions using bucket ACLs.

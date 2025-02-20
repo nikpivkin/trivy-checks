@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Ensure that the admission control plugin AlwaysPullImages is set"
 # description: "Always pull images."
 # scope: package

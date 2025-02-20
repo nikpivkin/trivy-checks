@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "ConfigMap with secrets"
 # description: "Storing secrets in configMaps is unsafe"
 # scope: package

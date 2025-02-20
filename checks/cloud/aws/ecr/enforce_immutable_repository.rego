@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: ECR images tags shouldn't be mutable.
 # description: |
 #   ECR images should be set to IMMUTABLE to prevent code injection through image mutation.

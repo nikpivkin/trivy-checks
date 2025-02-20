@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Delete expired SSL certificates
 # description: |
 #   Removing expired SSL/TLS certificates eliminates the risk that an invalid certificate will be

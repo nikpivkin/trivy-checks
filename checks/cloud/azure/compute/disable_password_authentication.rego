@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Password authentication should be disabled on Azure virtual machines
 # description: |
 #   Access to virtual machines should be authenticated using SSH keys. Removing the option of password authentication enforces more secure methods while removing the risks inherent with passwords.

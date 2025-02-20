@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Spaces bucket or bucket object has public read acl set
 # description: |
 #   Space bucket and bucket object permissions should be set to deny public access unless explicitly required.

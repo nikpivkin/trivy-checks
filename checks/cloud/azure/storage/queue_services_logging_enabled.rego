@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: When using Queue Services for a storage account, logging should be enabled.
 # description: |
 #   Storage Analytics logs detailed information about successful and failed requests to a storage service.

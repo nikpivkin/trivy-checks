@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: IAM Password policy should have requirement for at least one uppercase character.
 # description: |
 #   ,

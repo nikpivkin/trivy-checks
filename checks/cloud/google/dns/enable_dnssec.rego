@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Cloud DNS should use DNSSEC
 # description: |
 #   DNSSEC authenticates DNS responses, preventing MITM attacks and impersonation.

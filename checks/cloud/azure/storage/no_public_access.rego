@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Storage containers in blob storage mode should not have public access
 # description: |
 #   Storage container public access should be off. It can be configured for blobs only, containers and blobs or off entirely. The default is off, with no public access.

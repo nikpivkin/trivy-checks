@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Security group should not allow unrestricted ingress to SSH port from any IP address.
 # description: |
 #   SSH access can be configured on either the network security group or in the network security group rule.

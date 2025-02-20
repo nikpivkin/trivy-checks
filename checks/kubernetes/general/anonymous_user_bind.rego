@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Anonymous user access binding"
 # description: "Binding to anonymous user to any clusterrole or role is a security risk."
 # scope: package

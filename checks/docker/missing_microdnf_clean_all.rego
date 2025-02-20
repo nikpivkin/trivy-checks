@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "'microdnf clean all' missing"
 # description: "Cached package data should be cleaned after installation to reduce image size."
 # scope: package

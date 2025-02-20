@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "All container images must start with the *.azurecr.io domain"
 # description: "Containers should only use images from trusted registries."
 # scope: package

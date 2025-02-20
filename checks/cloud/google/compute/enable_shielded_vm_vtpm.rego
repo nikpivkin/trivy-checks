@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Instances should have Shielded VM VTPM enabled
 # description: |
 #   The virtual TPM provides numerous security measures to your VM.

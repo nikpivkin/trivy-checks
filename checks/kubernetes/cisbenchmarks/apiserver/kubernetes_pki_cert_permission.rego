@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Ensure that the Kubernetes PKI certificate file permission is set to 600"
 # description: "Ensure that the Kubernetes PKI certificate file permission is set to 600."
 # scope: package

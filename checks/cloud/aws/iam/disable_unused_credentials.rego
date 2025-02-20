@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Credentials which are no longer used should be disabled.
 # description: |
 #   CIS recommends that you remove or deactivate all credentials that have been unused in 90 days or more. Disabling or removing unnecessary credentials reduces the window of opportunity for credentials associated with a compromised or abandoned account to be used.

@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Kubernetes resource with disallowed volumes mounted"
 # description: "HostPath present many security risks and as a security practice it is better to avoid critical host paths mounts."
 # scope: package

@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Web App has registration with AD enabled
 # description: |
 #   Registering the identity used by an App with AD allows it to interact with other services without using username and password

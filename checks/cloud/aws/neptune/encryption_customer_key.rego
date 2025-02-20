@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Neptune encryption should use Customer Managed Keys
 # description: |
 #   Encryption using AWS keys provides protection for your Neptune underlying storage. To increase control of the encryption and manage factors like rotation use customer managed keys.

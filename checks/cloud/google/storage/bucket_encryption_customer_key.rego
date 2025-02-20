@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Cloud Storage buckets should be encrypted with a customer-managed key.
 # description: |
 #   Using unmanaged keys makes rotation and general management difficult.

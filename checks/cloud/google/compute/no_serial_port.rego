@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Disable serial port connectivity for all instances
 # description: |
 #   When serial port access is enabled, the access is not governed by network security rules meaning the port can be exposed publicly.

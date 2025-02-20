@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: DAX Cluster should always encrypt data at rest
 # description: |
 #   Data can be freely read if compromised. Amazon DynamoDB Accelerator (DAX) encryption at rest provides an additional layer of data protection by helping secure your data from unauthorized access to the underlying storage.

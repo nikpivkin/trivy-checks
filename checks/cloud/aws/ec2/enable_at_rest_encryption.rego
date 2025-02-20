@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Instance with unencrypted block device.
 # description: |
 #   Block devices should be encrypted to ensure sensitive data is held securely at rest.

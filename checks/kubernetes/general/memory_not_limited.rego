@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Memory not limited"
 # description: "Enforcing memory limits prevents DoS via resource exhaustion."
 # scope: package

@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Seccomp policies disabled"
 # description: "A program inside the container can bypass Seccomp protection policies."
 # scope: package

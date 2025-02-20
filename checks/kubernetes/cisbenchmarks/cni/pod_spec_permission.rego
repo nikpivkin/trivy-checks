@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Ensure that the container network interface file permissions are set to 600 or more restrictive"
 # description: "Ensure that the container network interface file has permissions of 600 or more restrictive."
 # scope: package

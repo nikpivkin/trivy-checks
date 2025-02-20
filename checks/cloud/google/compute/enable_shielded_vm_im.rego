@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Instances should have Shielded VM integrity monitoring enabled
 # description: |
 #   Integrity monitoring helps you understand and make decisions about the state of your VM instances.

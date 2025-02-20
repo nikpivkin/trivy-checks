@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Use of plain HTTP.
 # description: |
 #   Plain HTTP is unencrypted and human-readable. This means that if a malicious actor was to eavesdrop on your connection, they would be able to see all of your data flowing back and forth.

@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Security groups should not allow unrestricted ingress to SSH or RDP from any IP address.
 # description: |
 #   Security groups provide stateful filtering of ingress and egress network traffic to AWS

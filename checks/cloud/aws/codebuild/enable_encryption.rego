@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: CodeBuild Project artifacts encryption should not be disabled
 # description: |
 #   All artifacts produced by your CodeBuild project pipeline should always be encrypted

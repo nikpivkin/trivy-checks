@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Compute instance requests an IP reservation from a public pool
 # description: |
 #   Compute instance requests an IP reservation from a public pool

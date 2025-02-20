@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: No user should have more than one active access key.
 # description: |
 #   Multiple active access keys widens the scope for compromise.

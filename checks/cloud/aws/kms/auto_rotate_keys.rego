@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: A KMS key is not configured to auto-rotate.
 # description: |
 #   You should configure your KMS keys to auto rotate to maintain security and defend against compromise.

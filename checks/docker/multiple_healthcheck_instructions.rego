@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Multiple HEALTHCHECK defined"
 # description: "Providing more than one HEALTHCHECK instruction per stage is confusing and error-prone."
 # scope: package

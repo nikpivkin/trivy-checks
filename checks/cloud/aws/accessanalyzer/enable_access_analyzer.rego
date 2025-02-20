@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Enable IAM Access analyzer for IAM policies about all resources in each region.
 # description: |
 #   AWS IAM Access Analyzer helps you identify the resources in your organization and

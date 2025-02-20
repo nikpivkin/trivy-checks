@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Ensure that the --service-account-private-key-file argument is set as appropriate"
 # description: "Explicitly set a service account private key file for service accounts on the controller manager."
 # scope: package

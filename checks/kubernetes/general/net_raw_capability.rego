@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "NET_RAW capability added"
 # description: "The NET_RAW capability grants attackers the ability to eavesdrop on network traffic or generate IP traffic with falsified source addresses, posing serious security risks."
 # scope: package

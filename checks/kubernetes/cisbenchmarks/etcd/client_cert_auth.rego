@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Ensure that the --client-cert-auth argument is set to true"
 # description: "Enable client authentication on etcd service."
 # scope: package

@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: IAM granted directly to user.
 # description: |
 #   Permissions should not be directly granted to users, you identify roles that contain the appropriate permissions, and then grant those roles to the user.

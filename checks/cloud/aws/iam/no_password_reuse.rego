@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: IAM Password policy should prevent password reuse.
 # description: |
 #   IAM account password policies should prevent the reuse of passwords.

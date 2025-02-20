@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Non-core volume types used."
 # description: "According to pod security standard 'Volume types', non-core volume types must not be used."
 # scope: package

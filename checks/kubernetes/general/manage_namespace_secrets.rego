@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Manage namespace secrets"
 # description: "Viewing secrets at the namespace scope can lead to escalation if another service account in that namespace has a higher privileged rolebinding or clusterrolebinding bound."
 # scope: package

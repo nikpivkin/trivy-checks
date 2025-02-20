@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Load balancers should drop invalid headers
 # description: |
 #   Passing unknown or invalid headers through to the target poses a potential risk of compromise.

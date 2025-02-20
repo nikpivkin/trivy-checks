@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Secrets Manager should use customer managed keys
 # description: |
 #   Secrets Manager encrypts secrets by default using a default key created by AWS. To ensure control and granularity of secret encryption, CMK's should be used explicitly.

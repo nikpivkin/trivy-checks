@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Ensure that the --bind-address argument is set to 127.0.0.1"
 # description: "Do not bind the scheduler service to non-loopback insecure addresses."
 # scope: package

@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Manage all resources"
 # description: "Full control of the cluster resources, and therefore also root on all nodes where workloads can run and has access to all pods, secrets, and data."
 # scope: package

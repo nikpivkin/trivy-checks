@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Ensure that the --etcd-certfile and --etcd-keyfile arguments are set as appropriate"
 # description: "etcd should be configured to make use of TLS encryption for client connections."
 # scope: package

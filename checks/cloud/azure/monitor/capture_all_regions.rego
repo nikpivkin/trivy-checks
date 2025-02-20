@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Ensure activitys are captured for all locations
 # description: |
 #   Log profiles should capture all regions to ensure that all events are logged

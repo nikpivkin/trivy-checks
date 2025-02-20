@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "All container images must start with an ECR domain"
 # description: "Container images from non-ECR registries should be forbidden."
 # scope: package

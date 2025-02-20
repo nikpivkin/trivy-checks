@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Manage Kubernetes RBAC resources"
 # description: "An effective level of access equivalent to cluster-admin should not be provided."
 # scope: package

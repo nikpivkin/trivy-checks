@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "RDS IAM Database Authentication Disabled"
 # description: "Ensure IAM Database Authentication is enabled for RDS database instances to manage database access"
 # scope: package

@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "'apt-get' missing '-y' to avoid manual input"
 # description: "'apt-get' calls should use the flag '-y' to avoid manual user input."
 # scope: package

@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Elasticsearch domain isn't encrypted at rest.
 # description: |
 #   You should ensure your Elasticsearch data is encrypted at rest to help prevent sensitive information from being read by unauthorised users.

@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: The default action on Storage account network rules should be set to deny
 # description: |
 #   The default_action for network rules should come into effect when no other rules are matched.

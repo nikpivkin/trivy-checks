@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Container capabilities must only include NET_BIND_SERVICE"
 # description: "Containers must drop ALL capabilities, and are only permitted to add back the NET_BIND_SERVICE capability."
 # scope: package

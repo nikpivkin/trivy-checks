@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Disks should be encrypted with customer managed encryption keys
 # description: |
 #   Using unmanaged keys makes rotation and general management difficult.

@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Cloudfront distribution should have Access Logging configured
 # description: |
 #   You should configure CloudFront Access Logging to create log files that contain detailed information about every user request that CloudFront receives

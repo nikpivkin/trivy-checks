@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Ensure that the --terminated-pod-gc-threshold argument is set as appropriate"
 # description: "Activate garbage collector on pod termination, as appropriate."
 # scope: package

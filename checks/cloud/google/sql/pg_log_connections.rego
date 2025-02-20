@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Ensure that logging of connections is enabled.
 # description: |
 #   Logging connections provides useful diagnostic data such as session length, which can identify performance issues in an application and potential DoS vectors.

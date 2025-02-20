@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Zone signing should not use RSA SHA1
 # description: |
 #   RSA SHA1 is a weaker algorithm than SHA2-based algorithms such as RSA SHA256/512

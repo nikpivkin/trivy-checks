@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Missing description for db security group.
 # description: |
 #   DB security groups should include a description for auditing purposes.

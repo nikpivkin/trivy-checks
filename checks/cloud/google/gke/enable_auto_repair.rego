@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Kubernetes should have 'Automatic repair' enabled
 # description: |
 #   Automatic repair will monitor nodes and attempt repair when a node fails multiple subsequent health checks

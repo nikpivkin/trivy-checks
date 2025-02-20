@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: A security group should not allow unrestricted ingress to the RDP port from any IP address.
 # description: |
 #   RDP access can be configured on either the network security group or in the network security group rule.

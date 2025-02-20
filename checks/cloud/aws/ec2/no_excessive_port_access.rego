@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: An Network ACL rule allows ALL ports.
 # description: |
 #   Ensure access to specific required ports is allowed, and nothing else.

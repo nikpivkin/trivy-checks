@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: BigQuery datasets should only be accessible within the organisation
 # description: |
 #   Using 'allAuthenticatedUsers' provides any GCP user - even those outside of your organisation - access to your BigQuery dataset.

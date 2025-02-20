@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Key vault should have the network acl block specified
 # description: |
 #   Network ACLs allow you to reduce your exposure to risk by limiting what can access your key vault.

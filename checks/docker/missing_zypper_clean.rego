@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "'zypper clean' missing"
 # description: "The layer and image size should be reduced by deleting unneeded caches after running zypper."
 # scope: package

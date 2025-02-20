@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Web App uses the latest HTTP version
 # description: |
 #   Use the latest version of HTTP to ensure you are benefiting from security fixes

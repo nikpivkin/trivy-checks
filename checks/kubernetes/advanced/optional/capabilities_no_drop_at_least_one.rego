@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Default capabilities: some containers do not drop any"
 # description: "Security best practices require containers to run with minimal required capabilities."
 # scope: package

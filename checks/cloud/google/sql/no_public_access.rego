@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Ensure that Cloud SQL Database Instances are not publicly exposed
 # description: |
 #   Database instances should be configured so that they are not available over the public internet, but to internal compute resources which access them.

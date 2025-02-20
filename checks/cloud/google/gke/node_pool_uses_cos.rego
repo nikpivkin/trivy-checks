@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Ensure Container-Optimized OS (cos) is used for Kubernetes Engine Clusters Node image
 # description: |
 #   GKE supports several OS image types but COS is the recommended OS image to use on cluster nodes for enhanced security

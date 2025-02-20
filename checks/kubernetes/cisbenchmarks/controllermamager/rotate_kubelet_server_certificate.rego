@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Ensure that the RotateKubeletServerCertificate argument is set to true"
 # description: "Enable kubelet server certificate rotation on controller-manager."
 # scope: package

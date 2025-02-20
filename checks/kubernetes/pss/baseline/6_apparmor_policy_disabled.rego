@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Runtime/Default AppArmor profile not set"
 # description: "According to pod security standard 'AppArmor', the AppArmor key must be set to the runtime/default profile or to be undefined."
 # scope: package

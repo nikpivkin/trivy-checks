@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Do not allow impersonation of privileged groups"
 # description: "Check whether role permits impersonating privileged groups"
 # scope: package

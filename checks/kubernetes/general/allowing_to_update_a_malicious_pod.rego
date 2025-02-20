@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Manage Kubernetes workloads and pods"
 # description: "Depending on the policies enforced by the admission controller, this permission ranges from the ability to steal compute (crypto) by running workloads or allowing for creating workloads that escape to the node as root and escalation to cluster-admin."
 # scope: package

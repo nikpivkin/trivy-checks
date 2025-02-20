@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: Trusted Microsoft Services should have bypass access to Storage accounts
 # description: |
 #   Some Microsoft services that interact with storage accounts operate from networks that can't be granted access through network rules.

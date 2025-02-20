@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "User Pods should not be placed in kube-system namespace"
 # description: "ensure that User pods are not placed in kube-system namespace"
 # scope: package

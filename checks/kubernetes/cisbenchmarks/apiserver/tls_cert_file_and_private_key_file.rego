@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Ensure that the --tls-cert-file and --tls-private-key-file arguments are set as appropriate"
 # description: "Setup TLS connection on the API server."
 # scope: package

@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "if proxy kubeconfig file exists ensure ownership is set to root:root"
 # description: "If kube-proxy is running, ensure that the file ownership of its kubeconfig file is set to root:root."
 # scope: package

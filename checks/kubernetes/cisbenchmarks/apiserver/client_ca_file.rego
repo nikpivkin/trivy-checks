@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: "Ensure that the --client-ca-file argument is set as appropriate"
 # description: "Setup TLS connection on the API server."
 # scope: package

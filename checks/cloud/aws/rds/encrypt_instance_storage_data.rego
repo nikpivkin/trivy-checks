@@ -1,4 +1,5 @@
 # METADATA
+# entrypoint: true
 # title: RDS encryption has not been enabled at a DB Instance level.
 # description: |
 #   Encryption should be enabled for an RDS Database instances.
