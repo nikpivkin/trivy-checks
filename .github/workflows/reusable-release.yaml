@@ -63,7 +63,7 @@ jobs:
           tags=(${{ inputs.tags }})
           registries=(
             "ghcr.io/${{ github.repository }}"
-            "nikpivkin/${{ github.event.repository.name }}"
+            "${{ vars.DOCKERHUB_REPOSITORY || env.AQUA_DOCKERHUB_REPO }}/${{ github.event.repository.name }}"
           )
           for registry in ${registries[@]}; do
             for tag in ${tags[@]}; do
