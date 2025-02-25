@@ -1,0 +1,13 @@
+name: Canary Release
+on:
+  schedule:
+    - cron: "0 0 * * *" # Run every day at midnight
+  workflow_dispatch:
+
+jobs:
+  canary:
+    name: Canary Release
+    uses: ./.github/workflows/reusable-release.yaml
+    with:
+      tags: "canary"
+    secrets: inherit
