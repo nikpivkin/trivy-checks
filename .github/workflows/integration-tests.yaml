@@ -1,0 +1,21 @@
+name: Reusable Integration Tests
+on:
+  workflow_call:
+    inputs:
+      go_version:
+        type: string
+        required: true
+
+jobs:
+  integration-tests:
+    name: Integration Tests
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version: ${{ inputs.go_version }}
+
+      - name: Run integration tests
+        run: make test-integration
