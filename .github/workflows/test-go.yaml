@@ -23,5 +23,3 @@ jobs:
 
   integration-tests:
     uses: ./.github/workflows/integration-tests.yaml
-    with:
-      go_version: ${{ env.GO_VERSION }}

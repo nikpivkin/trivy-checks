@@ -11,13 +11,10 @@ on:
 env:
   GH_USER: aqua-bot
   AQUA_DOCKERHUB_REPO: aquasec
-  GO_VERSION: "1.23"
 
 jobs:
   integration-tests:
     uses: ./.github/workflows/integration-tests.yaml
-    with:
-      go_version: ${{ env.GO_VERSION }}
 
   release:
     runs-on: ubuntu-latest
