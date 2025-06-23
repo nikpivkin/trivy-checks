@@ -10,7 +10,7 @@
 # custom:
 #   aliases:
 #     - google-sql-no-cross-db-ownership-chaining
-#   avd_id: AVD-GCP-0019
+#   id: AVD-GCP-0019
 #   provider: google
 #   service: sql
 #   severity: MEDIUM

@@ -10,7 +10,7 @@
 # custom:
 #   aliases:
 #     - aws-emr-enable-local-disk-encryption
-#   avd_id: AVD-AWS-0139
+#   id: AVD-AWS-0139
 #   provider: aws
 #   service: emr
 #   severity: HIGH

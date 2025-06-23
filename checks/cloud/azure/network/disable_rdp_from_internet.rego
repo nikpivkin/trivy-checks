@@ -11,7 +11,7 @@
 # custom:
 #   aliases:
 #     - azure-network-disable-rdp-from-internet
-#   avd_id: AVD-AZU-0048
+#   id: AVD-AZU-0048
 #   provider: azure
 #   service: network
 #   severity: CRITICAL

@@ -8,7 +8,7 @@
 # custom:
 #   aliases:
 #     - google-kms-rotate-kms-keys
-#   avd_id: AVD-GCP-0065
+#   id: AVD-GCP-0065
 #   provider: google
 #   service: kms
 #   severity: HIGH

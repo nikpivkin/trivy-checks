@@ -8,7 +8,7 @@
 # custom:
 #   aliases:
 #     - google-compute-no-ip-forwarding
-#   avd_id: AVD-GCP-0043
+#   id: AVD-GCP-0043
 #   provider: google
 #   service: compute
 #   severity: HIGH

@@ -10,7 +10,7 @@
 # related_resources:
 #   - https://www.cloudconformity.com/knowledge-base/aws/EC2/security-group-rules-description.html
 # custom:
-#   avd_id: AVD-AWS-0099
+#   id: AVD-AWS-0099
 #   aliases:
 #     - aws-ec2-add-description-to-security-group
 #   provider: aws

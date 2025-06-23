@@ -10,7 +10,7 @@
 # custom:
 #   aliases:
 #     - aws-ssm-secret-use-customer-key
-#   avd_id: AVD-AWS-0098
+#   id: AVD-AWS-0098
 #   provider: aws
 #   service: ssm
 #   severity: LOW

@@ -8,7 +8,7 @@
 # custom:
 #   aliases:
 #     - aws-elb-alb-not-public
-#   avd_id: AVD-AWS-0053
+#   id: AVD-AWS-0053
 #   provider: aws
 #   service: elb
 #   severity: HIGH

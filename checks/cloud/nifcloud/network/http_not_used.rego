@@ -12,7 +12,7 @@
 # custom:
 #   aliases:
 #     - nifcloud-network-http-not-used
-#   avd_id: AVD-NIF-0021
+#   id: AVD-NIF-0021
 #   provider: nifcloud
 #   service: network
 #   severity: CRITICAL

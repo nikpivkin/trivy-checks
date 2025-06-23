@@ -5,7 +5,7 @@
 # schemas:
 # - input: schema["kubernetes"]
 # custom:
-#   avd_id: AVD-KSV-0109
+#   id: AVD-KSV-0109
 #   severity: HIGH
 #   short_code: configMap_with_secrets
 #   recommended_action: "Remove password/secret from configMap data value"

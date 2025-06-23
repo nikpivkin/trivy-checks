@@ -10,7 +10,7 @@
 # custom:
 #   aliases:
 #     - aws-neptune-encryption-customer-key
-#   avd_id: AVD-AWS-0128
+#   id: AVD-AWS-0128
 #   provider: aws
 #   service: neptune
 #   severity: HIGH

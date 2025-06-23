@@ -10,7 +10,7 @@
 # custom:
 #   aliases:
 #     - aws-cloudtrail-no-public-log-access
-#   avd_id: AVD-AWS-0161
+#   id: AVD-AWS-0161
 #   provider: aws
 #   service: cloudtrail
 #   severity: CRITICAL

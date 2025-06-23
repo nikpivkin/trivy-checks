@@ -11,7 +11,7 @@
 # custom:
 #   aliases:
 #     - aws-ami-ensure-ami-has-owners
-#   avd_id: AVD-AWS-0344
+#   id: AVD-AWS-0344
 #   provider: aws
 #   service: ami
 #   severity: LOW

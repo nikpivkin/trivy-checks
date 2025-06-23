@@ -11,7 +11,7 @@
 # custom:
 #   aliases:
 #     - aws-sqs-no-wildcards-in-policy-documents
-#   avd_id: AVD-AWS-0097
+#   id: AVD-AWS-0097
 #   provider: aws
 #   service: sqs
 #   severity: HIGH

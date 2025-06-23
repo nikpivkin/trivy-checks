@@ -10,7 +10,7 @@
 # custom:
 #   aliases:
 #     - azure-container-limit-authorized-ips
-#   avd_id: AVD-AZU-0041
+#   id: AVD-AZU-0041
 #   provider: azure
 #   service: container
 #   severity: CRITICAL

@@ -11,7 +11,7 @@
 # custom:
 #   aliases:
 #     - aws-ecs-no-plaintext-secrets
-#   avd_id: AVD-AWS-0036
+#   id: AVD-AWS-0036
 #   provider: aws
 #   service: ecs
 #   severity: CRITICAL

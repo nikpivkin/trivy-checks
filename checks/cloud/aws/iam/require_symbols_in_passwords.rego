@@ -10,7 +10,7 @@
 # custom:
 #   aliases:
 #     - aws-iam-require-symbols-in-passwords
-#   avd_id: AVD-AWS-0060
+#   id: AVD-AWS-0060
 #   provider: aws
 #   service: iam
 #   severity: MEDIUM

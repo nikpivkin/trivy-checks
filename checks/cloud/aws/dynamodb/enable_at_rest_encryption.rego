@@ -11,7 +11,7 @@
 # custom:
 #   aliases:
 #     - aws-dynamodb-enable-at-rest-encryption
-#   avd_id: AVD-AWS-0023
+#   id: AVD-AWS-0023
 #   provider: aws
 #   service: dynamodb
 #   severity: HIGH

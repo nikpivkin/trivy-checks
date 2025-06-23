@@ -11,7 +11,7 @@
 # custom:
 #   aliases:
 #     - aws-cloudwatch-require-iam-policy-change-alarm
-#   avd_id: AVD-AWS-0150
+#   id: AVD-AWS-0150
 #   provider: aws
 #   service: cloudwatch
 #   severity: LOW

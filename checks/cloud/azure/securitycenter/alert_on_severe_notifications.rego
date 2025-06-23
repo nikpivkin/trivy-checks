@@ -12,7 +12,7 @@
 # custom:
 #   aliases:
 #     - azure-security-center-alert-on-severe-notifications
-#   avd_id: AVD-AZU-0044
+#   id: AVD-AZU-0044
 #   provider: azure
 #   service: security-center
 #   severity: MEDIUM

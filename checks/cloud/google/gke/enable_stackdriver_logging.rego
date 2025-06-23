@@ -8,7 +8,7 @@
 # custom:
 #   aliases:
 #     - google-gke-enable-stackdriver-logging
-#   avd_id: AVD-GCP-0060
+#   id: AVD-GCP-0060
 #   provider: google
 #   service: gke
 #   severity: LOW

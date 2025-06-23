@@ -8,7 +8,7 @@
 # custom:
 #   aliases:
 #     - azure-compute-disable-password-authentication
-#   avd_id: AVD-AZU-0039
+#   id: AVD-AZU-0039
 #   provider: azure
 #   service: compute
 #   severity: HIGH

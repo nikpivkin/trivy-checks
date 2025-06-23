@@ -7,7 +7,7 @@
 # related_resources:
 # - https://kubernetes.io/docs/reference/setup-tools/kubeadm/implementation-details/
 # custom:
-#   avd_id: AVD-KSV-0037
+#   id: AVD-KSV-0037
 #   aliases:
 #     - no-user-pods-in-system-namespace
 #   severity: MEDIUM

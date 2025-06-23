@@ -10,7 +10,7 @@
 # custom:
 #   aliases:
 #     - google-sql-no-contained-db-auth
-#   avd_id: AVD-GCP-0023
+#   id: AVD-GCP-0023
 #   provider: google
 #   service: sql
 #   severity: MEDIUM

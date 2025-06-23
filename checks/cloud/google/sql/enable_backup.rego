@@ -10,7 +10,7 @@
 # custom:
 #   aliases:
 #     - google-sql-enable-backup
-#   avd_id: AVD-GCP-0024
+#   id: AVD-GCP-0024
 #   provider: google
 #   service: sql
 #   severity: MEDIUM

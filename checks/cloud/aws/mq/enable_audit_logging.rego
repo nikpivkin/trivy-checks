@@ -10,7 +10,7 @@
 # custom:
 #   aliases:
 #     - aws-mq-enable-audit-logging
-#   avd_id: AVD-AWS-0070
+#   id: AVD-AWS-0070
 #   provider: aws
 #   service: mq
 #   severity: MEDIUM

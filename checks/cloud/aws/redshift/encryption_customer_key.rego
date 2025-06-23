@@ -10,7 +10,7 @@
 # custom:
 #   aliases:
 #     - aws-redshift-encryption-customer-key
-#   avd_id: AVD-AWS-0084
+#   id: AVD-AWS-0084
 #   provider: aws
 #   service: redshift
 #   severity: HIGH

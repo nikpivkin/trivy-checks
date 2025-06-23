@@ -16,7 +16,7 @@
 # custom:
 #   aliases:
 #     - nifcloud-ssl-certificate-remove-expired-certificates
-#   avd_id: AVD-NIF-0006
+#   id: AVD-NIF-0006
 #   provider: nifcloud
 #   service: ssl-certificate
 #   severity: LOW

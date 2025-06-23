@@ -10,7 +10,7 @@
 # custom:
 #   aliases:
 #     - aws-cloudfront-enable-logging
-#   avd_id: AVD-AWS-0010
+#   id: AVD-AWS-0010
 #   provider: aws
 #   service: cloudfront
 #   severity: MEDIUM

@@ -10,7 +10,7 @@
 # custom:
 #   aliases:
 #     - oracle-compute-no-public-ip
-#   avd_id: AVD-OCI-0001
+#   id: AVD-OCI-0001
 #   provider: oracle
 #   service: compute
 #   severity: CRITICAL

@@ -8,7 +8,7 @@
 # custom:
 #   aliases:
 #     - google-compute-no-serial-port
-#   avd_id: AVD-GCP-0032
+#   id: AVD-GCP-0032
 #   provider: google
 #   service: compute
 #   severity: MEDIUM

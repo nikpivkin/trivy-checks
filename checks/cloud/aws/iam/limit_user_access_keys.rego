@@ -10,7 +10,7 @@
 # custom:
 #   aliases:
 #     - aws-iam-limit-user-access-keys
-#   avd_id: AVD-AWS-0167
+#   id: AVD-AWS-0167
 #   provider: aws
 #   service: iam
 #   severity: LOW

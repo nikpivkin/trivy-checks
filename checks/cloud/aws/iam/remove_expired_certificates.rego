@@ -16,7 +16,7 @@
 # custom:
 #   aliases:
 #     - aws-iam-remove-expired-certificates
-#   avd_id: AVD-AWS-0168
+#   id: AVD-AWS-0168
 #   provider: aws
 #   service: iam
 #   severity: LOW

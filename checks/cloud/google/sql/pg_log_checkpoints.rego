@@ -10,7 +10,7 @@
 # custom:
 #   aliases:
 #     - google-sql-pg-log-checkpoints
-#   avd_id: AVD-GCP-0025
+#   id: AVD-GCP-0025
 #   provider: google
 #   service: sql
 #   severity: MEDIUM

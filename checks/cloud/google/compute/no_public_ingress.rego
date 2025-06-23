@@ -10,7 +10,7 @@
 # custom:
 #   aliases:
 #     - google-compute-no-public-ingress
-#   avd_id: AVD-GCP-0027
+#   id: AVD-GCP-0027
 #   provider: google
 #   service: compute
 #   severity: CRITICAL

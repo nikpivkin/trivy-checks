@@ -10,7 +10,7 @@
 # custom:
 #   aliases:
 #     - azure-compute-enable-disk-encryption
-#   avd_id: AVD-AZU-0038
+#   id: AVD-AZU-0038
 #   provider: azure
 #   service: compute
 #   severity: HIGH

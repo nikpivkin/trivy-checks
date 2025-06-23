@@ -8,7 +8,7 @@
 # custom:
 #   aliases:
 #     - google-gke-node-pool-uses-cos
-#   avd_id: AVD-GCP-0054
+#   id: AVD-GCP-0054
 #   provider: google
 #   service: gke
 #   severity: LOW

@@ -8,7 +8,7 @@
 # custom:
 #   aliases:
 #     - google-compute-use-secure-tls-policy
-#   avd_id: AVD-GCP-0039
+#   id: AVD-GCP-0039
 #   provider: google
 #   service: compute
 #   severity: CRITICAL

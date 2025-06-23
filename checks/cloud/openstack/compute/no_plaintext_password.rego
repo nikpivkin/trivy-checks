@@ -8,7 +8,7 @@
 # custom:
 #   aliases:
 #     - openstack-compute-no-plaintext-password
-#   avd_id: AVD-OPNSTK-0001
+#   id: AVD-OPNSTK-0001
 #   provider: openstack
 #   service: compute
 #   severity: MEDIUM

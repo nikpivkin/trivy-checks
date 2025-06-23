@@ -10,7 +10,7 @@
 # custom:
 #   aliases:
 #     - azure-database-no-public-firewall-access
-#   avd_id: AVD-AZU-0029
+#   id: AVD-AZU-0029
 #   provider: azure
 #   service: database
 #   severity: HIGH

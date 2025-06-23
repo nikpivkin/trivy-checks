@@ -12,7 +12,7 @@
 # custom:
 #   aliases:
 #     - azure-database-retention-period-set
-#   avd_id: AVD-AZU-0025
+#   id: AVD-AZU-0025
 #   provider: azure
 #   service: database
 #   severity: MEDIUM

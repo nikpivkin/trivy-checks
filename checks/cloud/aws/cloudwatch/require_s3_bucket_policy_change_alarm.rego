@@ -11,7 +11,7 @@
 # custom:
 #   aliases:
 #     - aws-cloudwatch-require-s3-bucket-policy-change-alarm
-#   avd_id: AVD-AWS-0154
+#   id: AVD-AWS-0154
 #   provider: aws
 #   service: cloudwatch
 #   severity: LOW

@@ -14,7 +14,7 @@
 # custom:
 #   aliases:
 #     - github-branchprotections-require_signed_commits
-#   avd_id: AVD-GIT-0004
+#   id: AVD-GIT-0004
 #   provider: github
 #   service: branchprotections
 #   severity: HIGH

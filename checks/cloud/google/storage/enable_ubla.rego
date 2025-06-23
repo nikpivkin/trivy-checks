@@ -11,7 +11,7 @@
 # custom:
 #   aliases:
 #     - google-storage-enable-ubla
-#   avd_id: AVD-GCP-0002
+#   id: AVD-GCP-0002
 #   provider: google
 #   service: storage
 #   severity: MEDIUM

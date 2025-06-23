@@ -10,7 +10,7 @@
 # custom:
 #   aliases:
 #     - aws-cloudwatch-log-group-customer-key
-#   avd_id: AVD-AWS-0017
+#   id: AVD-AWS-0017
 #   provider: aws
 #   service: cloudwatch
 #   severity: LOW

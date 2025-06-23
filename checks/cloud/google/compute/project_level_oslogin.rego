@@ -8,7 +8,7 @@
 # custom:
 #   aliases:
 #     - google-compute-project-level-oslogin
-#   avd_id: AVD-GCP-0042
+#   id: AVD-GCP-0042
 #   provider: google
 #   service: compute
 #   severity: MEDIUM

@@ -15,7 +15,7 @@
 # custom:
 #   aliases:
 #     - azure-synapse-virtual-network-enabled
-#   avd_id: AVD-AZU-0034
+#   id: AVD-AZU-0034
 #   provider: azure
 #   service: synapse
 #   severity: MEDIUM

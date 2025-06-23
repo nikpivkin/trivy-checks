@@ -10,7 +10,7 @@
 # custom:
 #   aliases:
 #     - azure-datalake-enable-at-rest-encryption
-#   avd_id: AVD-AZU-0036
+#   id: AVD-AZU-0036
 #   provider: azure
 #   service: datalake
 #   severity: HIGH

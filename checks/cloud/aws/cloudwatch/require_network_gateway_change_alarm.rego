@@ -12,7 +12,7 @@
 # custom:
 #   aliases:
 #     - aws-cloudwatch-require-network-gateway-changes-alarm
-#   avd_id: AVD-AWS-0158
+#   id: AVD-AWS-0158
 #   provider: aws
 #   service: cloudwatch
 #   severity: LOW

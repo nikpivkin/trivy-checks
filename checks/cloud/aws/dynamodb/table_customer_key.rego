@@ -10,7 +10,7 @@
 # custom:
 #   aliases:
 #     - aws-dynamodb-table-customer-key
-#   avd_id: AVD-AWS-0025
+#   id: AVD-AWS-0025
 #   provider: aws
 #   service: dynamodb
 #   severity: LOW

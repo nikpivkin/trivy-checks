@@ -11,7 +11,7 @@
 # custom:
 #   aliases:
 #     - aws-cloudtrail-encryption-customer-managed-key
-#   avd_id: AVD-AWS-0015
+#   id: AVD-AWS-0015
 #   provider: aws
 #   service: cloudtrail
 #   severity: HIGH

@@ -14,7 +14,7 @@
 # custom:
 #   aliases:
 #     - azure-network-retention-policy-set
-#   avd_id: AVD-AZU-0049
+#   id: AVD-AZU-0049
 #   provider: azure
 #   service: network
 #   severity: LOW

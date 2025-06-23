@@ -8,7 +8,7 @@
 # custom:
 #   aliases:
 #     - aws-apigateway-no-public-access
-#   avd_id: AVD-AWS-0004
+#   id: AVD-AWS-0004
 #   provider: aws
 #   service: apigateway
 #   severity: LOW

@@ -10,7 +10,7 @@
 # custom:
 #   aliases:
 #     - aws-sam-enable-api-tracing
-#   avd_id: AVD-AWS-0111
+#   id: AVD-AWS-0111
 #   provider: aws
 #   service: sam
 #   severity: LOW

@@ -10,7 +10,7 @@
 # custom:
 #   aliases:
 #     - google-sql-pg-log-connections
-#   avd_id: AVD-GCP-0016
+#   id: AVD-GCP-0016
 #   provider: google
 #   service: sql
 #   severity: MEDIUM

@@ -12,7 +12,7 @@
 # custom:
 #   aliases:
 #     - azure-keyvault-ensure-key-expiry
-#   avd_id: AVD-AZU-0014
+#   id: AVD-AZU-0014
 #   provider: azure
 #   service: keyvault
 #   severity: MEDIUM

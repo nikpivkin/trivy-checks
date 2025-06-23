@@ -10,7 +10,7 @@
 # custom:
 #   aliases:
 #     - nifcloud-rdb-specify-backup-retention
-#   avd_id: AVD-NIF-0009
+#   id: AVD-NIF-0009
 #   provider: nifcloud
 #   service: rdb
 #   severity: MEDIUM

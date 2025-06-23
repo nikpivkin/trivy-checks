@@ -14,7 +14,7 @@
 # custom:
 #   aliases:
 #     - aws-ec2-enforce-http-token-imds
-#   avd_id: AVD-AWS-0028
+#   id: AVD-AWS-0028
 #   provider: aws
 #   service: ec2
 #   severity: HIGH

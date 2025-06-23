@@ -10,7 +10,7 @@
 # custom:
 #   aliases:
 #     - google-compute-enable-shielded-vm-vtpm
-#   avd_id: AVD-GCP-0041
+#   id: AVD-GCP-0041
 #   provider: google
 #   service: compute
 #   severity: MEDIUM

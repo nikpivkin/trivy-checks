@@ -12,7 +12,7 @@
 # custom:
 #   aliases:
 #     - aws-iam-enforce-root-mfa
-#   avd_id: AVD-AWS-0142
+#   id: AVD-AWS-0142
 #   provider: aws
 #   service: iam
 #   severity: CRITICAL

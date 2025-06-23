@@ -12,7 +12,7 @@
 # custom:
 #   aliases:
 #     - azure-security-center-enable-standard-subscription
-#   avd_id: AVD-AZU-0045
+#   id: AVD-AZU-0045
 #   provider: azure
 #   service: security-center
 #   severity: LOW

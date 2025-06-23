@@ -5,7 +5,7 @@
 # schemas:
 # - input: schema["kubernetes"]
 # custom:
-#   avd_id: AVD-KSV-0108
+#   id: AVD-KSV-0108
 #   severity: HIGH
 #   short_code: no_svc_with_extip
 #   recommended_action: "Do not set spec.externalIPs"

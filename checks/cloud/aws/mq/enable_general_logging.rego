@@ -10,7 +10,7 @@
 # custom:
 #   aliases:
 #     - aws-mq-enable-general-logging
-#   avd_id: AVD-AWS-0071
+#   id: AVD-AWS-0071
 #   provider: aws
 #   service: mq
 #   severity: LOW

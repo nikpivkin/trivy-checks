@@ -10,7 +10,7 @@
 # custom:
 #   aliases:
 #     - google-sql-pg-log-disconnections
-#   avd_id: AVD-GCP-0022
+#   id: AVD-GCP-0022
 #   provider: google
 #   service: sql
 #   severity: MEDIUM

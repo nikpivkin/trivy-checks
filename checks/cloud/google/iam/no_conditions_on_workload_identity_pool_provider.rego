@@ -10,7 +10,7 @@
 # custom:
 #   aliases:
 #     - google-iam-no-conditions-workload-identity-pool-provider
-#   avd_id: AVD-GCP-0068
+#   id: AVD-GCP-0068
 #   provider: google
 #   service: iam
 #   severity: HIGH

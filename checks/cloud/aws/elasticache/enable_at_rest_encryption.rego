@@ -10,7 +10,7 @@
 # custom:
 #   aliases:
 #     - aws-elasticache-enable-at-rest-encryption
-#   avd_id: AVD-AWS-0045
+#   id: AVD-AWS-0045
 #   provider: aws
 #   service: elasticache
 #   severity: HIGH

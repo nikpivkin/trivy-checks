@@ -10,7 +10,7 @@
 # related_resources:
 #   - https://pfs.nifcloud.com/help/rdb/fw_new.htm
 # custom:
-#   avd_id: AVD-NIF-0012
+#   id: AVD-NIF-0012
 #   aliases:
 #     - nifcloud-rdb-add-description-to-db-security-group
 #   provider: nifcloud

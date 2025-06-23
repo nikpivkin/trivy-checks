@@ -8,7 +8,7 @@
 # custom:
 #   aliases:
 #     - google-gke-use-cluster-labels
-#   avd_id: AVD-GCP-0051
+#   id: AVD-GCP-0051
 #   provider: google
 #   service: gke
 #   severity: LOW

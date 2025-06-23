@@ -8,7 +8,7 @@
 # related_resources:
 #   - https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_passwords_account-policy.html#password-policy-details
 # custom:
-#   avd_id: AVD-AWS-0123
+#   id: AVD-AWS-0123
 #   aliases:
 #     - aws-iam-enforce-mfa
 #     - aws-iam-enforce-group-mfa

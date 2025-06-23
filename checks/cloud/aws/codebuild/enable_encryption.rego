@@ -11,7 +11,7 @@
 # custom:
 #   aliases:
 #     - aws-codebuild-enable-encryption
-#   avd_id: AVD-AWS-0018
+#   id: AVD-AWS-0018
 #   provider: aws
 #   service: codebuild
 #   severity: HIGH

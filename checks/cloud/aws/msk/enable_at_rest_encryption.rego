@@ -10,7 +10,7 @@
 # custom:
 #   aliases:
 #     - aws-msk-enable-at-rest-encryption
-#   avd_id: AVD-AWS-0179
+#   id: AVD-AWS-0179
 #   provider: aws
 #   service: msk
 #   severity: HIGH

@@ -10,7 +10,7 @@
 # custom:
 #   aliases:
 #     - aws-iam-disable-unused-credentials
-#   avd_id: AVD-AWS-0144
+#   id: AVD-AWS-0144
 #   provider: aws
 #   service: iam
 #   severity: MEDIUM

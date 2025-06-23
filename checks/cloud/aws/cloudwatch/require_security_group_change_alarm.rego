@@ -12,7 +12,7 @@
 # custom:
 #   aliases:
 #     - aws-cloudwatch-require-sg-change-alarms
-#   avd_id: AVD-AWS-0156
+#   id: AVD-AWS-0156
 #   provider: aws
 #   service: cloudwatch
 #   severity: LOW

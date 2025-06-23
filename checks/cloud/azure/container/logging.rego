@@ -10,7 +10,7 @@
 # custom:
 #   aliases:
 #     - azure-container-logging
-#   avd_id: AVD-AZU-0040
+#   id: AVD-AZU-0040
 #   provider: azure
 #   service: container
 #   severity: MEDIUM

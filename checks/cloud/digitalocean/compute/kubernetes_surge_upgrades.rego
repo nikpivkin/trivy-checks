@@ -10,7 +10,7 @@
 # custom:
 #   aliases:
 #     - digitalocean-compute-surge-upgrades-not-enabled
-#   avd_id: AVD-DIG-0005
+#   id: AVD-DIG-0005
 #   provider: digitalocean
 #   service: compute
 #   severity: MEDIUM

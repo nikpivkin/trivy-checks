@@ -10,7 +10,7 @@
 # custom:
 #   aliases:
 #     - google-sql-encrypt-in-transit-data
-#   avd_id: AVD-GCP-0015
+#   id: AVD-GCP-0015
 #   provider: google
 #   service: sql
 #   severity: HIGH

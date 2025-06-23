@@ -10,7 +10,7 @@
 # related_resources:
 #   - https://pfs.nifcloud.com/help/fw/change.htm
 # custom:
-#   avd_id: AVD-NIF-0002
+#   id: AVD-NIF-0002
 #   aliases:
 #     - nifcloud-computing-add-description-to-security-group
 #   provider: nifcloud

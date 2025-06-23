@@ -11,7 +11,7 @@
 # custom:
 #   aliases:
 #     - digitalocean-compute-enforce-https
-#   avd_id: AVD-DIG-0002
+#   id: AVD-DIG-0002
 #   provider: digitalocean
 #   service: compute
 #   severity: CRITICAL

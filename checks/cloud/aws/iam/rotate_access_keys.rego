@@ -10,7 +10,7 @@
 # custom:
 #   aliases:
 #     - aws-iam-rotate-access-keys
-#   avd_id: AVD-AWS-0146
+#   id: AVD-AWS-0146
 #   provider: aws
 #   service: iam
 #   severity: LOW

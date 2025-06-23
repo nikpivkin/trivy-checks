@@ -11,7 +11,7 @@
 # custom:
 #   aliases:
 #     - aws-redshift-add-description-to-security-group
-#   avd_id: AVD-AWS-0083
+#   id: AVD-AWS-0083
 #   provider: aws
 #   service: redshift
 #   severity: LOW

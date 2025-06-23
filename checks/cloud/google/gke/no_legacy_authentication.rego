@@ -12,7 +12,7 @@
 # custom:
 #   aliases:
 #     - google-gke-no-legacy-authentication
-#   avd_id: AVD-GCP-0064
+#   id: AVD-GCP-0064
 #   provider: google
 #   service: gke
 #   severity: HIGH

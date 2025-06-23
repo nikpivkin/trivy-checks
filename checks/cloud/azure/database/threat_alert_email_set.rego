@@ -8,7 +8,7 @@
 # custom:
 #   aliases:
 #     - azure-database-threat-alert-email-set
-#   avd_id: AVD-AZU-0018
+#   id: AVD-AZU-0018
 #   provider: azure
 #   service: database
 #   severity: MEDIUM

@@ -12,7 +12,7 @@
 # custom:
 #   aliases:
 #     - azure-security-center-set-required-contact-details
-#   avd_id: AVD-AZU-0046
+#   id: AVD-AZU-0046
 #   provider: azure
 #   service: security-center
 #   severity: LOW

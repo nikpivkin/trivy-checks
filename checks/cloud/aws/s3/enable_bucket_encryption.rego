@@ -10,7 +10,7 @@
 # custom:
 #   aliases:
 #     - aws-s3-enable-bucket-encryption
-#   avd_id: AVD-AWS-0088
+#   id: AVD-AWS-0088
 #   provider: aws
 #   service: s3
 #   severity: HIGH

@@ -11,7 +11,7 @@
 # custom:
 #   aliases:
 #     - aws-elasticache-add-description-for-security-group
-#   avd_id: AVD-AWS-0049
+#   id: AVD-AWS-0049
 #   provider: aws
 #   service: elasticache
 #   severity: LOW

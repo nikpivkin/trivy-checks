@@ -8,7 +8,7 @@
 # custom:
 #   aliases:
 #     - google-compute-no-oslogin-override
-#   avd_id: AVD-GCP-0036
+#   id: AVD-GCP-0036
 #   provider: google
 #   service: compute
 #   severity: MEDIUM

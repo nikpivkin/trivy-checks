@@ -10,7 +10,7 @@
 # custom:
 #   aliases:
 #     - aws-apigateway-enable-cache
-#   avd_id: AVD-AWS-0190
+#   id: AVD-AWS-0190
 #   provider: aws
 #   service: apigateway
 #   severity: LOW

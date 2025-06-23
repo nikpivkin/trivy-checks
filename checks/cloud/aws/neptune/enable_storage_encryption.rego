@@ -10,7 +10,7 @@
 # custom:
 #   aliases:
 #     - aws-neptune-enable-storage-encryption
-#   avd_id: AVD-AWS-0076
+#   id: AVD-AWS-0076
 #   provider: aws
 #   service: neptune
 #   severity: HIGH

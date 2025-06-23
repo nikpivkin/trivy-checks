@@ -10,7 +10,7 @@
 # custom:
 #   aliases:
 #     - aws-ecs-enable-container-insight
-#   avd_id: AVD-AWS-0034
+#   id: AVD-AWS-0034
 #   provider: aws
 #   service: ecs
 #   severity: LOW

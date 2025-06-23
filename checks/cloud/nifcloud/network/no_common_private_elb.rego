@@ -8,7 +8,7 @@
 # related_resources:
 #   - https://pfs.nifcloud.com/service/plan.htm
 # custom:
-#   avd_id: AVD-NIF-0019
+#   id: AVD-NIF-0019
 #   aliases:
 #     - nifcloud-network-no-common-private-elb
 #   provider: nifcloud

@@ -9,7 +9,7 @@
 # custom:
 #   aliases:
 #     - aws-s3-dns-compliant-name
-#   avd_id: AVD-AWS-0320
+#   id: AVD-AWS-0320
 #   provider: aws
 #   service: s3
 #   severity: MEDIUM

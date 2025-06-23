@@ -8,7 +8,7 @@
 # custom:
 #   aliases:
 #     - google-gke-enable-auto-upgrade
-#   avd_id: AVD-GCP-0058
+#   id: AVD-GCP-0058
 #   provider: google
 #   service: gke
 #   severity: LOW

@@ -10,7 +10,7 @@
 # custom:
 #   aliases:
 #     - aws-msk-enable-logging
-#   avd_id: AVD-AWS-0074
+#   id: AVD-AWS-0074
 #   provider: aws
 #   service: msk
 #   severity: MEDIUM

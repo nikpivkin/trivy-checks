@@ -10,7 +10,7 @@
 # custom:
 #   aliases:
 #     - azure-monitor-capture-all-regions
-#   avd_id: AVD-AZU-0032
+#   id: AVD-AZU-0032
 #   provider: azure
 #   service: monitor
 #   severity: MEDIUM

@@ -8,7 +8,7 @@
 # custom:
 #   aliases:
 #     - aws-apigateway-enable-tracing
-#   avd_id: AVD-AWS-0003
+#   id: AVD-AWS-0003
 #   provider: aws
 #   service: apigateway
 #   severity: LOW

@@ -10,7 +10,7 @@
 # custom:
 #   aliases:
 #     - aws-iam-require-lowercase-in-passwords
-#   avd_id: AVD-AWS-0058
+#   id: AVD-AWS-0058
 #   provider: aws
 #   service: iam
 #   severity: MEDIUM

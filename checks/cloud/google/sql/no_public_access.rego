@@ -10,7 +10,7 @@
 # custom:
 #   aliases:
 #     - google-sql-no-public-access
-#   avd_id: AVD-GCP-0017
+#   id: AVD-GCP-0017
 #   provider: google
 #   service: sql
 #   severity: HIGH

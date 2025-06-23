@@ -11,7 +11,7 @@
 # custom:
 #   aliases:
 #     - aws-cloudfront-enforce-https
-#   avd_id: AVD-AWS-0012
+#   id: AVD-AWS-0012
 #   provider: aws
 #   service: cloudfront
 #   severity: CRITICAL

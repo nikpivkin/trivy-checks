@@ -8,7 +8,7 @@
 # custom:
 #   aliases:
 #     - azure-appservice-authentication-enabled
-#   avd_id: AVD-AZU-0003
+#   id: AVD-AZU-0003
 #   provider: azure
 #   service: appservice
 #   severity: MEDIUM
