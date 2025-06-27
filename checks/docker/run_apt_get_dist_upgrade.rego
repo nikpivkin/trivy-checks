@@ -6,7 +6,7 @@
 # - input: schema["dockerfile"]
 # custom:
 #   deprecated: true
-#   id: AVD-DS-0024
+#   id: DS-0024
 #   severity: HIGH
 #   short_code: no-dist-upgrade
 #   recommended_action: "Just use different image"

@@ -12,7 +12,7 @@ test_invalid_metadata if {
 # schemas:
 #   - input: schema["kubernetes"]
 # custom:
-#   avdid: AVD-TEST-001
+#   id: TEST-001
 #   examples: test/ff.json
 package policy
 
@@ -22,7 +22,7 @@ foo := true`)
 
 	r == {{
 		"category": "custom",
-		"description": "(Root): avd_id is required\n(Root): input is required\n(Root): Additional property avdid is not allowed",
+		"description": "(Root): id is required\n(Root): input is required\n(Root): Additional property avdid is not allowed",
 		"level": "error",
 		"location": {
 			"col": 1,
