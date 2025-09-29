@@ -40,7 +40,7 @@ func LoadChecksMetadata(fsys fs.FS) (map[string]Metadata, error) {
 }
 
 func GetCheckMetadata(module *ast.Module) (Metadata, bool) {
-	annotations := packageAnnotations(module)
+	annotations := PackageAnnotations(module)
 	if len(annotations) != 1 {
 		// TODO: so the check has an deprecated way of specifying metadata
 		return Metadata{}, false
@@ -73,7 +73,7 @@ func isDotFile(name string) bool {
 	return strings.HasPrefix(name, ".")
 }
 
-func packageAnnotations(module *ast.Module) []*ast.Annotations {
+func PackageAnnotations(module *ast.Module) []*ast.Annotations {
 	return lo.Filter(module.Annotations, func(annot *ast.Annotations, _ int) bool {
 		return annot.Scope == "package"
 	})

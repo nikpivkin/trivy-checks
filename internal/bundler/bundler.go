@@ -4,12 +4,25 @@ import (
 	"archive/tar"
 	"bytes"
 	"compress/gzip"
+	"context"
+	"encoding/json"
 	"fmt"
 	"io"
 	"io/fs"
 	"log"
+	"path"
 	"path/filepath"
 	"strings"
+
+	"github.com/open-policy-agent/eopa/pkg/iropt"
+	"github.com/open-policy-agent/opa/v1/ast"
+	"github.com/open-policy-agent/opa/v1/bundle"
+	"github.com/open-policy-agent/opa/v1/compile"
+	"github.com/open-policy-agent/opa/v1/ir"
+	"github.com/open-policy-agent/opa/v1/loader"
+	"github.com/samber/lo"
+
+	"github.com/aquasecurity/trivy-checks/pkg/rego/metadata"
 )
 
 type copyJob struct {
@@ -23,11 +36,13 @@ type FileFilter func(path string) bool
 
 // Bundler is responsible for preparing and archiving a bundle of files from a root directory
 type Bundler struct {
-	root      string
-	fsys      fs.FS
-	prefix    string // Prefix path inside the archive, e.g. "bundle"
-	githubRef string // GitHub ref string, e.g. "refs/tags/v1.2.3"
-	filters   []FileFilter
+	root       string
+	fsys       fs.FS
+	prefix     string // Prefix path inside the archive, e.g. "bundle"
+	githubRef  string // GitHub ref string, e.g. "refs/tags/v1.2.3"
+	irPlan     bool
+	irOptimize bool
+	filters    []FileFilter
 
 	jobs     []copyJob
 	files    map[string]string // map of source file paths to their relative destination paths in the bundle
@@ -48,6 +63,23 @@ func WithFilters(filters ...FileFilter) Option {
 func WithGithubRef(ref string) Option {
 	return func(b *Bundler) {
 		b.githubRef = ref
+	}
+}
+
+// WithIRPlan enables generation of an intermediate representation (IR) plan.
+// When enabled, Bundler will produce an additional planning file inside the `ir/` directory
+// together with other copied files.
+func WithIRPlan(enable bool) Option {
+	return func(b *Bundler) {
+		b.irPlan = enable
+	}
+}
+
+// WithIROptimization enables optimizations for the generated intermediate representation (IR).
+// This option has an effect only when IR plan generation is enabled.
+func WithIROptimization(enable bool) Option {
+	return func(b *Bundler) {
+		b.irOptimize = enable
 	}
 }
 
@@ -198,7 +230,7 @@ func (b *Bundler) archive(w io.Writer) error {
 
 	var added int
 	for src, dst := range b.files {
-		err := b.addFileToTar(tw, src, b.prefix+dst)
+		err := b.addFileToTar(tw, src, path.Join(b.prefix, dst))
 		if err != nil {
 			return fmt.Errorf("add file to tar: %w", err)
 		}
@@ -206,7 +238,88 @@ func (b *Bundler) archive(w io.Writer) error {
 	}
 
 	log.Printf("Added %d files to archive", added)
+
+	if b.irPlan {
+		opaBundle, err := createOpaBundle(b.fsys, b.root)
+		if err != nil {
+			return err
+		}
+
+		for _, planned := range opaBundle.PlanModules {
+			out := planned.Raw
+			if b.irOptimize {
+				optimized, err := optimizePlannedModule(planned.Raw)
+				if err != nil {
+					return err
+				}
+				out = optimized
+			}
+			dst := path.Join(b.prefix, "ir", planned.Path)
+			header := tar.Header{
+				Name:     dst,
+				Mode:     int64(fs.ModePerm),
+				Typeflag: tar.TypeReg,
+				Size:     int64(len(out)),
+			}
+
+			if err := b.addDataToTar(tw, out, &header); err != nil {
+				return fmt.Errorf("add file to tar: %w", err)
+			}
+		}
+
+		checksMetadata := make(map[string]*ast.Annotations)
+
+		for _, module := range opaBundle.Modules {
+			annotations := metadata.PackageAnnotations(module.Parsed)
+			if len(annotations) != 1 {
+				continue
+			}
+
+			modulePkg := module.Parsed.Package.Path.String()
+			checksMetadata[modulePkg] = annotations[0]
+		}
+
+		metadataBytes, err := json.Marshal(checksMetadata)
+		if err != nil {
+			return nil
+		}
+
+		dst := path.Join(b.prefix, "ir", "metadata.json")
+		header := tar.Header{
+			Name:     dst,
+			Mode:     int64(fs.ModePerm),
+			Typeflag: tar.TypeReg,
+			Size:     int64(len(metadataBytes)),
+		}
+
+		if err := b.addDataToTar(tw, metadataBytes, &header); err != nil {
+			return fmt.Errorf("add file to tar: %w", err)
+		}
+
+	}
 	return nil
+}
+
+func optimizePlannedModule(data []byte) ([]byte, error) {
+	var policy ir.Policy
+	if err := json.Unmarshal(data, &policy); err != nil {
+		return nil, err
+	}
+	optimizationSchedule := iropt.NewIROptLevel0Schedule(
+		&iropt.OptimizationPassFlags{
+			LoopInvariantCodeMotion: true,
+		},
+		&iropt.OptimizationPassFlags{},
+	)
+	optimizedPolicy, err := iropt.RunPasses(&policy, optimizationSchedule)
+	if err != nil {
+		return nil, err
+	}
+	bs, err := json.Marshal(optimizedPolicy)
+	if err != nil {
+		return nil, err
+	}
+	return bs, nil
 }
 
 func (b *Bundler) writeManifest(tw *tar.Writer) error {
@@ -248,4 +361,86 @@ func (b *Bundler) addFileToTar(tw *tar.Writer, src, dst string) error {
 
 	_, err = io.Copy(tw, f)
 	return err
+}
+
+func (b *Bundler) addDataToTar(tw *tar.Writer, data []byte, header *tar.Header) error {
+	if err := tw.WriteHeader(header); err != nil {
+		return err
+	}
+
+	if _, err := tw.Write(data); err != nil {
+		return err
+	}
+
+	return nil
+}
+
+func createOpaBundle(fsys fs.FS, root string) (*bundle.Bundle, error) {
+	filter := func(abspath string, info fs.FileInfo, depth int) bool {
+		if info.IsDir() {
+			if abspath == "." {
+				return false
+			}
+			return !strings.HasPrefix(abspath, "checks") && !strings.HasPrefix(abspath, "lib")
+		}
+		return isNotRegoFile(info)
+	}
+
+	b, err := loader.NewFileLoader().
+		WithFS(fsys).
+		WithFilter(filter).
+		WithProcessAnnotation(true).
+		AsBundle(root)
+	if err != nil {
+		return nil, err
+	}
+
+	b.Modules = lo.Filter(b.Modules, func(m bundle.ModuleFile, _ int) bool {
+		return len(m.Parsed.Rules) != 0
+	})
+
+	compiled, err := compileBundle(b)
+	if err != nil {
+		return nil, err
+	}
+	return compiled, nil
+}
+
+func isNotRegoFile(fi fs.FileInfo) bool {
+	return !fi.IsDir() && (!isRegoFile(fi.Name()) || isDotFile(fi.Name()))
+}
+
+func isRegoFile(name string) bool {
+	return strings.HasSuffix(name, ".rego") && !strings.HasSuffix(name, "_test.rego")
+}
+
+func isDotFile(name string) bool {
+	return strings.HasPrefix(name, ".")
+}
+
+func compileBundle(opaBundle *bundle.Bundle) (*bundle.Bundle, error) {
+	entrypoints := make([]string, 0, len(opaBundle.Modules))
+
+	for _, m := range opaBundle.Modules {
+		modulePackage := m.Parsed.Package.Path.String()
+		if strings.HasPrefix(modulePackage, "data.lib") {
+			continue
+		}
+
+		// entrypoint is the full path to rule, constructed from package name and rule name,
+		// and looks like "mypackage/mypolicy/myrule"
+		entrypoint := strings.ReplaceAll(strings.TrimPrefix(modulePackage, "data."), ".", "/") + "/deny"
+		entrypoints = append(entrypoints, entrypoint)
+	}
+
+	c := compile.New().
+		WithBundle(opaBundle).
+		WithTarget(compile.TargetPlan).
+		WithEntrypoints(entrypoints...)
+
+	if err := c.Build(context.TODO()); err != nil {
+		return nil, fmt.Errorf("compile: %w", err)
+	}
+	bundle := c.Bundle()
+	return bundle, nil
 }

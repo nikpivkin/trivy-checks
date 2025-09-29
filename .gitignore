@@ -6,3 +6,7 @@ schemas
 .vscode
 
 .DS_Store
+
+.trivycache
+bundle/
+plan.json

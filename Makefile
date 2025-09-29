@@ -75,7 +75,7 @@ docs-test:
 
 .PHONY: create-bundle
 create-bundle:
-	go run ./cmd/bundle -root .
+	go run ./cmd/bundle -root . -ir true
 
 build-opa:
 	go build ./cmd/opa
