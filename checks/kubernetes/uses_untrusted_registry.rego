@@ -38,7 +38,12 @@ import data.lib.kubernetes
 
 import data.ksv0125
 
-azure_registries := {"azurecr.io"}
+azure_registries := {
+	"azurecr.io",
+	"azurecr.microsoftazure.de",
+	"azurecr.usgovcloudapi.net",
+	"azurecr.chinacloudapi.cn",
+}
 
 ecr_registries := {
 	"ecr.us-east-2.amazonaws.com",
