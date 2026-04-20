@@ -24,7 +24,7 @@ jobs:
     uses: ./.github/workflows/integration-tests.yaml
 
   release:
-    runs-on: ubuntu-2404-2core
+    runs-on: ubuntu-24.04
     needs: integration-tests
     permissions:
       contents: read
