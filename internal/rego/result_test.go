@@ -57,6 +57,33 @@ func TestCreateResult(t *testing.T) {
 }`,
 		},
 		{
+			name: "wrapped value keeps the metadata next to the value",
+			cause: `{
+	"value": false,
+	"startline": 12,
+	"endline": 14,
+	"sourceprefix": "",
+	"filepath": "main.tf",
+	"explicit": false,
+	"managed": true,
+	"unresolvable": false,
+	"fskey": "fs-key",
+	"resource": "aws_s3_bucket.example"
+}`,
+			expected: `{
+	"msg": "message",
+	"startline": 12,
+	"endline": 14,
+	"sourceprefix": "",
+	"filepath": "main.tf",
+	"explicit": false,
+	"managed": true,
+	"fskey": "fs-key",
+	"resource": "aws_s3_bucket.example",
+	"parent": null
+}`,
+		},
+		{
 			name:  "dockerfile command keeps the location in its own fields",
 			cause: `{"Path": "Dockerfile", "StartLine": 1, "EndLine": 2, "Cmd": "user"}`,
 			expected: `{

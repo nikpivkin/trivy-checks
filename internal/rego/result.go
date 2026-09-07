@@ -73,7 +73,8 @@ func createResult(ctx rego.BuiltinContext, msg, cause *ast.Term) (*ast.Term, err
 		metadata[resultKeyMessage] = msg
 	}
 
-	// A dockerfile command carries the location in its own fields, not in metadataKey.
+	// A converted struct keeps the location under metadataKey. A wrapped value or a
+	// dockerfile command keeps it in its own top level fields instead.
 	input := cmp.Or(cause.Get(ast.StringTerm(metadataKey)), cause)
 	metadata = updateMetadata(metadata, input)
 
